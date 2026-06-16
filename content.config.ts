@@ -62,6 +62,29 @@ export default defineContentConfig({
       }),
     }),
 
+    // Industry assignments — consulting, delivery, offering design (assignments.yml)
+    assignments: defineCollection({
+      type: 'data',
+      source: { include: 'assignments.yml', cwd },
+      schema: z.object({
+        intro: z.string().optional(),
+        segments: z.array(
+          z.object({
+            title: z.string(),
+            summary: z.string().optional(),
+            highlights: z.array(z.string()).optional(),
+          }),
+        ),
+        customers: z.array(
+          z.object({
+            name: z.string(),
+            sector: z.string().optional(),
+            logo: z.string().optional(),
+          }),
+        ),
+      }),
+    }),
+
     // Open-source & community contributions (contributions.yml)
     contributions: defineCollection({
       type: 'data',

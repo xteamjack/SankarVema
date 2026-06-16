@@ -73,6 +73,7 @@ export default defineNuxtConfig({
       routes: [
         '/',
         '/about',
+        '/assignments',
         '/journey',
         '/achievements',
         '/contributions',

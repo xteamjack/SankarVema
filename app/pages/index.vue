@@ -22,6 +22,9 @@ const { data: achievements } = await useAsyncData("home-achievements", () =>
 const { data: contributions } = await useAsyncData("home-contributions", () =>
   queryCollection("contributions").first()
 );
+const { data: assignments } = await useAsyncData("home-assignments", () =>
+  queryCollection("assignments").first()
+);
 
 const d = computed<any>(() => doc.value as any);
 const metrics = computed<any[]>(() => d.value?.metrics ?? []);
@@ -38,10 +41,15 @@ const topAchievements = computed<any[]>(() =>
 const topContributions = computed<any[]>(() =>
   ((contributions.value as any)?.items ?? []).slice(0, 3)
 );
+const customers = computed<any[]>(() => (assignments.value as any)?.customers ?? []);
+const assignmentSegments = computed<any[]>(
+  () => (assignments.value as any)?.segments ?? []
+);
 
 const sections = [
   { id: "hero", label: "Intro" },
   { id: "work", label: "My Work" },
+  { id: "assignments", label: "Assignments" },
   { id: "journey", label: "My Journey" },
   { id: "achievements", label: "Achievements" },
   { id: "contributions", label: "Contributions" },
@@ -110,8 +118,50 @@ useSeoMeta({
       </NuxtLink>
     </SectionPanel>
 
+    <!-- ============================ ASSIGNMENTS ============================ -->
+    <SectionPanel id="assignments" index="02" eyebrow="Assignments">
+      <div class="max-w-2xl">
+        <h2
+          class="font-[family-name:var(--font-display)] text-3xl tracking-tight text-[var(--color-fg)] sm:text-5xl"
+        >
+          Trusted by governments and the Fortune 500.
+        </h2>
+        <p class="mt-4 text-[var(--color-fg-muted)]">
+          Three decades across consulting, project delivery and offering design —
+          for the organizations where the technology had to work at scale.
+        </p>
+      </div>
+
+      <div class="mt-8">
+        <LogoMarquee :customers="customers" />
+      </div>
+
+      <div class="mt-6 flex flex-wrap gap-2">
+        <span
+          v-for="s in assignmentSegments"
+          :key="s.title"
+          class="tag !text-[var(--color-fg-muted)]"
+        >{{ s.title }}</span>
+      </div>
+
+      <NuxtLink to="/assignments" class="btn btn-ghost mt-7 w-fit">
+        Explore assignments
+        <svg
+          class="h-4 w-4"
+          viewBox="0 0 24 24"
+          fill="none"
+          stroke="currentColor"
+          stroke-width="1.8"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+        >
+          <path d="M5 12h14M13 6l6 6-6 6" />
+        </svg>
+      </NuxtLink>
+    </SectionPanel>
+
     <!-- ============================ JOURNEY ============================ -->
-    <SectionPanel id="journey" index="02" eyebrow="My Journey">
+    <SectionPanel id="journey" index="03" eyebrow="My Journey">
       <div class="max-w-2xl">
         <h2
           class="font-[family-name:var(--font-display)] text-3xl tracking-tight text-[var(--color-fg)] sm:text-5xl"
@@ -161,7 +211,7 @@ useSeoMeta({
     </SectionPanel>
 
     <!-- ============================ ACHIEVEMENTS ============================ -->
-    <SectionPanel id="achievements" index="03" eyebrow="Achievements">
+    <SectionPanel id="achievements" index="04" eyebrow="Achievements">
       <div class="max-w-2xl">
         <h2
           class="font-[family-name:var(--font-display)] text-3xl tracking-tight text-[var(--color-fg)] sm:text-5xl"
@@ -212,7 +262,7 @@ useSeoMeta({
     </SectionPanel>
 
     <!-- ============================ CONTRIBUTIONS ============================ -->
-    <SectionPanel id="contributions" index="04" eyebrow="Contributions">
+    <SectionPanel id="contributions" index="05" eyebrow="Contributions">
       <div class="max-w-2xl">
         <h2
           class="font-[family-name:var(--font-display)] text-3xl tracking-tight text-[var(--color-fg)] sm:text-5xl"
@@ -263,7 +313,7 @@ useSeoMeta({
     </SectionPanel>
 
     <!-- ============================ ADVISORY (close) ============================ -->
-    <SectionPanel id="advisory" index="05" eyebrow="Work With Me">
+    <SectionPanel id="advisory" index="06" eyebrow="Work With Me">
       <div class="glass relative overflow-hidden p-8 sm:p-12">
         <div
           class="pointer-events-none absolute -right-20 -top-20 h-72 w-72 rounded-full opacity-60"

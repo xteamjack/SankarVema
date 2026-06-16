@@ -1,0 +1,80 @@
+intro: >-
+  Three decades across consulting, delivery and offering design — for governments,
+  Fortune 500 manufacturers, banks, insurers and telecoms. The common thread:
+  high-stakes programs where the technology had to actually work at scale.
+segments:
+  - title: Consulting & Advisory
+    summary: >-
+      Trusted advisor to boards and CxOs on technology strategy, architecture and
+      transformation — brought in when the decision is expensive and the stakes are real.
+    highlights:
+      - Account CTO for AT&T and Zurich Insurance
+      - Technology advisory on the Tata – Jaguar Land Rover merger
+      - Engagement with Airbus on next-generation engineering
+      - Due diligence and architecture review for Fortune 500 leadership
+
+  - title: Project Delivery
+    summary: >-
+      End-to-end delivery of complex enterprise programs across manufacturing, FMCG,
+      healthcare and financial services — owned outcomes, not just advice.
+    highlights:
+      - SAP Globe template rollout for Nestlé, Switzerland
+      - Enterprise programs for Hyundai, John Deere, Caterpillar and Philips
+      - Payments and financial-services delivery for Mastercard
+      - Port operations, Terminal, Gate and Yard Management Systems for Government of India port trusts
+
+  - title: Offering & Practice Design
+    summary: >-
+      Designed and stood up next-generation practices and productized offerings from
+      zero — turning emerging technology into repeatable, sellable capability.
+    highlights:
+      - Solutioning labs across AI/ML, IoT, Drones, Blockchain and AR/VR
+      - MS Dynamics and SharePoint consulting practices built from scratch
+      - Reusable accelerators and reference architectures for enterprise AI
+
+  - title: Innovation & Transformation
+    summary: >-
+      Led innovation and digital-transformation initiatives — from executive showcase
+      centers to nation-scale public-sector modernization.
+    highlights:
+      - Innovation labs and technology showcase centers (Sofia, Bangalore)
+      - Digital adoption across Vizag, Chennai and JNPT port trusts, reporting to the PMO
+      - Next-gen practice areas in Robotics, Drones and Industrial IoT
+
+customers:
+  - name: Government of India
+    sector: Public Sector · Maritime
+    logo: /logos/govt-india.svg
+  - name: Nestlé
+    sector: FMCG
+    logo: /logos/nestle.svg
+  - name: Philips
+    sector: Healthcare · Electronics
+    logo: /logos/philips.svg
+  - name: AT&T
+    sector: Telecom
+    logo: /logos/att.svg
+  - name: Zurich Insurance
+    sector: Insurance
+    logo: /logos/zurich.svg
+  - name: Mastercard
+    sector: Financial Services
+    logo: /logos/mastercard.svg
+  - name: John Deere
+    sector: Industrial · Agriculture
+    logo: /logos/john-deere.svg
+  - name: Caterpillar
+    sector: Heavy Equipment
+    logo: /logos/caterpillar.svg
+  - name: Airbus
+    sector: Aerospace
+    logo: /logos/airbus.svg
+  - name: Hyundai
+    sector: Automotive
+    logo: /logos/hyundai.svg
+  - name: KONE
+    sector: Industrial · Mobility
+    logo: /logos/kone.svg
+  - name: Tata JLR
+    sector: Automotive
+    logo: /logos/tata-jlr.svg

@@ -3,6 +3,7 @@ const { data: profile } = await useProfile()
 
 const links = [
   { label: 'Work', to: '/work' },
+  { label: 'Assignments', to: '/assignments' },
   { label: 'Journey', to: '/journey' },
   { label: 'Achievements', to: '/achievements' },
   { label: 'Contributions', to: '/contributions' },

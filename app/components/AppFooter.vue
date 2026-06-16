@@ -4,6 +4,7 @@ const { data: profile } = await useProfile()
 const year = 2026 // build-time constant; the site footer year
 const nav = [
   { label: 'Work', to: '/work' },
+  { label: 'Assignments', to: '/assignments' },
   { label: 'Journey', to: '/journey' },
   { label: 'Achievements', to: '/achievements' },
   { label: 'Contributions', to: '/contributions' },
