@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 820" width="600" height="820">
+  <defs>
+    <filter id="soft" x="-10%" y="-10%" width="120%" height="120%">
+      <feGaussianBlur stdDeviation="6" />
+    </filter>
+  </defs>
+  <g filter="url(#soft)" fill="#ffffff">
+    <!-- shoulders -->
+    <path d="M70 820c0-150 103-250 230-250s230 100 230 250z" />
+    <!-- neck -->
+    <path d="M250 430h100v90a50 50 0 0 1-100 0z" />
+    <!-- head -->
+    <circle cx="300" cy="320" r="150" />
+  </g>
+</svg>

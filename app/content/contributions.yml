@@ -1,0 +1,31 @@
+intro: >-
+  I've held the same view for a long time: the compounding wins are upstream, in
+  the open, not behind a fence. Open source over patents. Where I'm useful is in
+  the design and the judgment — and in giving that judgment away.
+items:
+  - title: Razor & Hanlon
+    role: Core contributor
+    era: Provisioning
+    note: Co-developed Razor and Hanlon — the next-generation provisioning engine that became core to Puppet's bare-metal provisioning.
+    link: ""
+
+  - title: Android SDK components
+    role: Open-source author
+    era: Mobile
+    note: Published widely-used open-source components for the early Android SDK, adopted across many community projects.
+
+  - title: Java Enterprise & JSP
+    role: Contributor
+    era: Enterprise Java
+    note: Early open-source contributions across Java Enterprise and JSP, back when the enterprise Java ecosystem was being defined.
+
+  - title: OpenAI content contributions
+    role: Contributor
+    era: AI / LLM
+    note: Contributed content and examples to the open AI ecosystem, helping practitioners build on top of modern LLM tooling.
+
+  - title: Writing & frameworks
+    role: Author
+    era: Ongoing
+    note: I publish essays, frameworks and talks under my own name — patterns for agentic systems and enterprise AI adoption, free to use.
+    link: /writing

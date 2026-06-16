@@ -1,0 +1,39 @@
+intro: >-
+  Recognition across three decades — from national honours early in my career to
+  being named one of the top technologists in a 165,000-person organization. The
+  through-line: building things that mattered and shipping them at scale.
+items:
+  - year: 2018
+    title: DXC Distinguished Engineer
+    org: DXC Technology
+    note: Recognized as one of the top 8 technologists in an organization of 165,000.
+
+  - year: 2015
+    title: CSC Distinguished Engineer
+    org: Computer Sciences Corporation
+    note: Distinguished Engineer recognition for sustained technical leadership and innovation.
+
+  - year: 2014
+    title: CSC Horizon Award
+    org: Computer Sciences Corporation
+    note: Awarded for outstanding contribution and breakthrough delivery.
+
+  - year: 2002
+    title: Technology Innovation Award
+    org: Cabinet Minister for Shipping, Govt. of India
+    note: For driving digital adoption across Indian port trusts, including Vizag, Chennai and JNPT.
+
+  - year: 1998
+    title: T. Swamy Babu Medal
+    org: Presented by Dr. APJ Abdul Kalam
+    note: National recognition received the same year I started my career in software.
+
+  - year: 2019–present
+    title: Managing Partner & Head of Engineering
+    org: Brane Enterprises
+    note: Built and led an engineering organization of 280+ leaders, including 42 in AI and NextGen.
+
+  - year: 2012–2019
+    title: Account CTO — AT&T and Zurich Insurance
+    org: DXC Technology
+    note: Trusted technology advisor to two Fortune 500 accounts; built solutioning labs in AI, AR/VR, Drones, Blockchain and IoT.

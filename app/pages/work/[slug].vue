@@ -1,0 +1,68 @@
+<script setup lang="ts">
+const route = useRoute()
+const path = `/work/${route.params.slug}`
+
+const { data: doc } = await useAsyncData(`work-${route.params.slug}`, () =>
+  queryCollection('work').path(path).first(),
+)
+
+if (!doc.value) {
+  throw createError({ statusCode: 404, statusMessage: 'Case study not found', fatal: true })
+}
+
+const d = computed<any>(() => doc.value as any)
+const stack = computed<string[]>(() => d.value?.stack ?? [])
+
+useSeoMeta({
+  title: () => stripHtml(d.value?.title) || 'Work',
+  description: () => stripHtml(d.value?.hero) || undefined,
+})
+
+function stripHtml(s?: string) {
+  return (s ?? '').replace(/&mdash;/g, '—').replace(/<[^>]*>/g, '')
+}
+</script>
+
+<template>
+  <article>
+    <PageHero eyebrow="Case Study" :title="d?.title">
+      <template #meta>
+        <p v-if="d?.hero" class="rise mt-6 max-w-2xl text-lg text-[var(--color-fg-muted)]" style="animation-delay: 120ms" v-html="d.hero" />
+
+        <dl class="rise mt-8 flex flex-wrap gap-x-10 gap-y-4 text-sm" style="animation-delay: 160ms">
+          <div v-if="d?.role">
+            <dt class="font-[family-name:var(--font-mono)] text-xs uppercase tracking-wider text-[var(--color-fg-faint)]">Role</dt>
+            <dd class="mt-1 text-[var(--color-fg)]">{{ d.role }}</dd>
+          </div>
+          <div v-if="d?.year">
+            <dt class="font-[family-name:var(--font-mono)] text-xs uppercase tracking-wider text-[var(--color-fg-faint)]">Year</dt>
+            <dd class="mt-1 text-[var(--color-fg)]">{{ d.year }}</dd>
+          </div>
+          <div v-if="d?.status">
+            <dt class="font-[family-name:var(--font-mono)] text-xs uppercase tracking-wider text-[var(--color-fg-faint)]">Status</dt>
+            <dd class="mt-1 inline-flex items-center gap-1.5 text-[var(--color-accent)]">
+              <span class="h-1.5 w-1.5 rounded-full bg-[var(--color-accent)]" />{{ d.status }}
+            </dd>
+          </div>
+        </dl>
+
+        <div v-if="stack.length" class="rise mt-6 flex flex-wrap gap-1.5" style="animation-delay: 200ms">
+          <span v-for="s in stack" :key="s" class="tag">{{ s }}</span>
+        </div>
+      </template>
+    </PageHero>
+
+    <div class="wrap py-16">
+      <div class="prose-editorial">
+        <ContentRenderer :value="doc" />
+      </div>
+
+      <div class="mt-14 border-t border-[var(--color-hair)] pt-8">
+        <NuxtLink to="/work" class="link-underline inline-flex items-center gap-1.5 text-sm text-[var(--color-fg-muted)] hover:text-[var(--color-fg)]">
+          <svg class="h-4 w-4" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M19 12H5M11 18l-6-6 6-6" /></svg>
+          All work
+        </NuxtLink>
+      </div>
+    </div>
+  </article>
+</template>

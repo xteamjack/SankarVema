@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 820" width="600" height="820" fill="none">
+  <defs>
+    <linearGradient id="g" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#34e1ff"/>
+      <stop offset="0.55" stop-color="#0ea5c4"/>
+      <stop offset="1" stop-color="#0e7490"/>
+    </linearGradient>
+    <radialGradient id="halo" cx="0.5" cy="0.32" r="0.7">
+      <stop offset="0" stop-color="#34e1ff" stop-opacity="0.35"/>
+      <stop offset="1" stop-color="#34e1ff" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="600" height="820" fill="url(#halo)"/>
+  <!-- shoulders -->
+  <path d="M70 820c0-150 103-250 230-250s230 100 230 250z" fill="url(#g)"/>
+  <!-- head -->
+  <circle cx="300" cy="320" r="150" fill="url(#g)"/>
+  <!-- neck -->
+  <path d="M250 430h100v90a50 50 0 0 1-100 0z" fill="url(#g)"/>
+  <!-- subtle inner highlight -->
+  <circle cx="300" cy="320" r="150" fill="#ffffff" opacity="0.06"/>
+  <text x="300" y="345" text-anchor="middle" font-family="Georgia, serif" font-size="120" fill="#ffffff" opacity="0.85" letter-spacing="-4">SV</text>
+</svg>

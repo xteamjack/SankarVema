@@ -1,0 +1,23 @@
+<!-- Placeholder portrait. Replace with your own photo:
+     overwrite this file, or drop e.g. profile-photo.jpg and update the
+     background-image reference in app/pages/index.vue. -->
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 820" width="600" height="820">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0.35" y2="1">
+      <stop offset="0" stop-color="#5d6f7d" />
+      <stop offset="0.5" stop-color="#3a4651" />
+      <stop offset="1" stop-color="#1f262d" />
+    </linearGradient>
+    <radialGradient id="key" cx="0.46" cy="0.34" r="0.5">
+      <stop offset="0" stop-color="#ffffff" stop-opacity="0.55" />
+      <stop offset="1" stop-color="#ffffff" stop-opacity="0" />
+    </radialGradient>
+    <radialGradient id="rim" cx="0.78" cy="0.4" r="0.5">
+      <stop offset="0" stop-color="#34e1ff" stop-opacity="0.5" />
+      <stop offset="1" stop-color="#34e1ff" stop-opacity="0" />
+    </radialGradient>
+  </defs>
+  <rect width="600" height="820" fill="url(#bg)" />
+  <rect width="600" height="820" fill="url(#rim)" />
+  <ellipse cx="276" cy="300" rx="240" ry="260" fill="url(#key)" />
+</svg>

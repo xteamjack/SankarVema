@@ -1,0 +1,44 @@
+entries:
+  - year: 1998
+    role: Software Engineer
+    company: eInfoSystems
+    note: First job. T. Swamy Babu Medal from APJ Kalam the same year.
+
+  - year: 2000
+    role: Software Engineer
+    company: Business Software Solutions
+
+  - year: 2001
+    role: Nodal Officer
+    company: Ministry of Shipping, Govt. of India
+    note: First leadership posting. Technology Innovation Award from the Cabinet Minister for Shipping (2002).
+
+  - year: 2005
+    role: Consultant (FLCL)
+    company: Satyam Computer Services
+    note: SAP Globe Template rollout for Nestle, Switzerland. P&L ownership of $5M USD across AMS and Testing Services. Teams scaled to 250+.
+
+  - year: 2008
+    role: Practice Head
+    company: Yash Technologies
+    note: Built MS Dynamics and SharePoint consulting practices from zero.
+
+  - year: 2012
+    role: Director & Distinguished Engineer
+    company: DXC Technologies
+    note: Account CTO for AT&T and Zurich Insurance. Built solutioning labs in AI, AR/VR, Drones, Blockchain, IoT. CSC Horizon Award (2014). CSC Distinguished Engineer (2015). DXC Distinguished Engineer (2018) &mdash; top 8 of 165,000.
+
+  - year: 2019
+    role: Managing Partner, Head of Engineering
+    company: Brane Enterprises
+    note: Built engineering org of 280+ leaders including 42 in AI / NextGen. End-to-end ownership of a global software platform.
+
+  - year: 2024
+    role: AI Architect (multiple shipped products)
+    company: Brane Enterprises
+    note: Real-time AI Interviewer (Pipecat + Daily.co). DigiHire.ai recruitment platform. No-code AI platform. Enterprise Digital Twin. Custom LLM fine-tuning with RAG.
+
+  - year: 2026
+    role: AI Builder · Architect · Advisor
+    company: Independent + Brane
+    note: Public flip toward AI building, advisory, and founder mentorship.
