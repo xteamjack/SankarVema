@@ -11,8 +11,8 @@ export default defineNuxtConfig({
   modules: ['@nuxt/content', '@nuxt/fonts', '@nuxtjs/color-mode'],
 
   colorMode: {
-    preference: 'dark',
-    fallback: 'dark',
+    preference: 'light',
+    fallback: 'light',
     classSuffix: '', // adds `dark` / `light` class on <html>
     storageKey: 'sv-color-mode',
   },
@@ -44,11 +44,14 @@ export default defineNuxtConfig({
           content:
             'Sankar Vema — AI Builder & Architect of Agentic Systems. Twenty-plus years building, leading and scaling technology; now focused on agentic architectures, model design and AI product development.',
         },
-        { name: 'theme-color', content: '#0a0a0b' },
+        { name: 'theme-color', content: '#f5f4f1' },
         { property: 'og:type', content: 'website' },
         { property: 'og:site_name', content: 'Sankar Vema' },
       ],
-      link: [{ rel: 'icon', type: 'image/svg+xml', href: '/favicon.svg' }],
+      // NB: the favicon <link> is set in app.vue, not here — a static href in
+      // this config is emitted verbatim and is NOT prefixed with app.baseURL,
+      // so on the GitHub Pages project sub-path it would 404. app.vue builds
+      // the href from the runtime baseURL instead.
     },
   },
 
