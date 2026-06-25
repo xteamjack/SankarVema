@@ -1,4 +1,10 @@
 {
+  "pnpm": {
+    "onlyBuiltDependencies": [
+      "better-sqlite3",
+      "sharp"
+    ]
+  },
   "name": "sankarvema-portfolio",
   "private": true,
   "type": "module",
