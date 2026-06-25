@@ -27,9 +27,11 @@ export default defineNuxtConfig({
     },
   },
 
-  // Served from the root of a GitHub user site (https://sankarvema.github.io/).
+  // Served from a GitHub project page (https://xteamjack.github.io/SankarVema/).
+  // A project repo is served under the repo-name sub-path, so baseURL must match
+  // the repo name — otherwise every /_nuxt/* asset 404s and the page is blank.
   app: {
-    baseURL: '/',
+    baseURL: '/SankarVema/',
     head: {
       htmlAttrs: { lang: 'en' },
       titleTemplate: (title?: string) =>
