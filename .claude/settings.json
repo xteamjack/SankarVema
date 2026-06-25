@@ -1,0 +1,12 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(npm -v)",
+      "Bash(pnpm -v)",
+      "Bash(pnpm rebuild *)",
+      "Bash(gh auth *)",
+      "Bash(pnpm generate *)",
+      "Bash(git --no-pager diff -- nuxt.config.ts .github/workflows/deploy.yml)"
+    ]
+  }
+}
