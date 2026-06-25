@@ -6,7 +6,8 @@
       "Bash(pnpm rebuild *)",
       "Bash(gh auth *)",
       "Bash(pnpm generate *)",
-      "Bash(git --no-pager diff -- nuxt.config.ts .github/workflows/deploy.yml)"
+      "Bash(git --no-pager diff -- nuxt.config.ts .github/workflows/deploy.yml)",
+      "Bash(git --no-pager log --oneline -6)"
     ]
   }
 }
