@@ -1,19 +1,19 @@
 ---
-title: Enterprise Digital Twin &mdash; CEO to Trainee
+title: Enterprise Digital Twin — CEO to Trainee
 slug: enterprise-digital-twin
 role: Architect & Product Visionary
 year: 2024
 status: shipped
 stack: [Neural Networks, LLM Agents, Simulation, Vector DB, Custom Models]
 tags: [build, transform, agentic, simulation]
-hero: A hierarchy-wide digital twin of the organization &mdash; CEO down to trainee &mdash; that lets executives simulate decisions and gives every role a personalized AI mentor.
+hero: A hierarchy-wide digital twin of the organization — CEO down to trainee — that lets executives simulate decisions and gives every role a personalized AI mentor.
 draft: true
 ---
 
 ## The problem
 
 Enterprises have digital twins of factories, supply chains, even buildings.
-Almost none have a digital twin of *themselves* &mdash; of how decisions flow,
+Almost none have a digital twin of *themselves* — of how decisions flow,
 who owns what, how a change at the top propagates to the work that gets done.
 Which means two things break in parallel: executives can't reliably model the
 downstream impact of decisions, and individual contributors get generic
@@ -23,24 +23,24 @@ This twin closes both gaps with one architecture.
 
 ## Architecture
 
-> _[Architecture diagram &mdash; placeholder; insert SVG]_
+> _[Architecture diagram — placeholder; insert SVG]_
 
 - **Hierarchy model:** every role from CEO to trainee is represented as a
   node with a typed responsibility surface, decision rights, and
   observable outputs.
-- **Simulation engine:** neural-network-backed "what-if" runs &mdash; budget,
+- **Simulation engine:** neural-network-backed "what-if" runs — budget,
   P&L, resource allocation, organizational change. Inputs are decisions;
   outputs are propagated state changes across the hierarchy.
 - **Personalized agents:** specialized LLM agents bound to individual roles
   that provide real-time mentorship, automated skill-gap analysis, and
   context-aware learning paths. The agent knows what the role is supposed
-  to be doing &mdash; not just what the person searched for.
+  to be doing — not just what the person searched for.
 - **Feedback loop:** real outcomes feed back into the simulation, so the
   twin gets sharper over time rather than drifting.
 
 ## Why this is hard
 
-- **Modeling decision rights** is harder than modeling org charts &mdash; the
+- **Modeling decision rights** is harder than modeling org charts — the
   formal structure is rarely the real structure.
 - **Simulation calibration**: a simulation that's always optimistic or always
   pessimistic is worse than no simulation. Earning trust required disciplined

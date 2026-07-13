@@ -11,14 +11,14 @@ contact:
   twitter: https://twitter.com/sansvema
 headline: I design AI systems that ship — and advise the leaders betting on them.
 intro: >
-  Twenty-plus years building, leading and scaling technology &mdash; now focused on
+  Twenty-plus years building, leading and scaling technology — now focused on
   agentic architectures, model design and AI product development. I take enterprises
   from AI-curious to AI-operational, and mentor the founders building on top of the stack.
 metrics:
   - value: "20+"
     label: years in enterprise technology
   - value: Top 8
-    label: of 165,000 &mdash; DXC Distinguished Engineer
+    label: of 165,000 — DXC Distinguished Engineer
   - value: "280+"
     label: engineers led at Brane
   - value: "5+"
@@ -26,7 +26,7 @@ metrics:
 capabilities:
   - title: Build
     tagline: I design AI systems and agents
-    body: Agentic architectures, multimodal interfaces, RAG pipelines and fine-tuned models &mdash; from a real-time AI interviewer to an enterprise digital twin.
+    body: Agentic architectures, multimodal interfaces, RAG pipelines and fine-tuned models — from a real-time AI interviewer to an enterprise digital twin.
     link: /work
     cta: See the work
   - title: Transform
@@ -43,4 +43,4 @@ capabilities:
 
 If you're a leadership team betting seriously on AI, I'm the architect-on-call who
 has already lived the second-year problems. I take on a small number of engagements
-at a time &mdash; deep over wide. The first conversation is a free 30-minute diagnosis.
+at a time — deep over wide. The first conversation is a free 30-minute diagnosis.

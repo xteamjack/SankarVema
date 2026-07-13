@@ -5,15 +5,15 @@ subtitle: How I think about technology, leadership, and AI
 
 ## The short version
 
-I've spent twenty-plus years inside enterprise technology &mdash; from a single
+I've spent twenty-plus years inside enterprise technology — from a single
 contributor in 1998 to Managing Partner & Head of Engineering at Brane Enterprises
 today, with stops as a Distinguished Engineer at DXC (recognized as one of the
 top 8 technologists in a 165,000-person organization), Practice Head at Yash,
 and Consultant at Satyam where I helped roll out SAP Globe for Nestle Switzerland.
 
 What I'm doing now is different. I've moved my focus deliberately to **building
-AI systems** &mdash; agentic platforms, fine-tuned models, multimodal interfaces,
-RAG architectures &mdash; and using the executive years as ballast, not identity.
+AI systems** — agentic platforms, fine-tuned models, multimodal interfaces,
+RAG architectures — and using the executive years as ballast, not identity.
 
 The shorthand: I was a generalist exec who designed and ran big things.
 Today I'm an AI builder who knows how big things actually work.
@@ -24,7 +24,7 @@ Today I'm an AI builder who knows how big things actually work.
 
 A diagram tells you what *fits*. A bet tells you what *might break*. Senior
 architects spend less time drawing and more time naming the bets out loud
-&mdash; the failure mode, the latency assumption, the cost curve, the regret
+— the failure mode, the latency assumption, the cost curve, the regret
 window. The diagram is a compression of the conversation. Don't ship without
 the conversation.
 

@@ -15,7 +15,7 @@ status: outline
 
 Most public writing on enterprise AI is about *capability*: what models can
 do, what frameworks exist, what demos look like. Very little is about *adoption*
-&mdash; the unglamorous shape of an organization that actually consumes AI well.
+— the unglamorous shape of an organization that actually consumes AI well.
 After twenty years inside enterprise transformation programs, the shape is
 consistent, the failures are consistent, and almost none of it is about the
 model.
@@ -25,8 +25,8 @@ model.
 Enterprise AI succeeds when three things are present at the same time:
 **a real problem with a measurable outcome**, **a small platform team that
 owns the AI substrate**, and **a feedback loop tying production output back
-to model improvement**. Everything else &mdash; the model choice, the vendor
-deal, the framework debate &mdash; is downstream and reversible. Most programs
+to model improvement**. Everything else — the model choice, the vendor
+deal, the framework debate — is downstream and reversible. Most programs
 get the first wrong, skip the second, and never build the third. Then they
 restart with a different model.
 
@@ -34,7 +34,7 @@ restart with a different model.
 
 ### 1. Problem layer
 - Real problem or board-deck problem?
-- Measurable in dollars, hours, or risk &mdash; not "efficiency."
+- Measurable in dollars, hours, or risk — not "efficiency."
 - Reversible if the experiment fails.
 
 ### 2. Data layer
@@ -81,11 +81,11 @@ followed by a six-month pilot, followed by re-organizing.
 
 ## What CxOs underestimate
 
-- **The unsexy work** &mdash; data, evals, observability, governance &mdash; is
+- **The unsexy work** — data, evals, observability, governance — is
   60% of the budget.
-- **Talent dynamics** &mdash; AI engineers want to work on AI, not on data
+- **Talent dynamics** — AI engineers want to work on AI, not on data
   pipelines. Architect around that or you'll lose them.
-- **Compounding** &mdash; the second year of the program creates more value
+- **Compounding** — the second year of the program creates more value
   than the first if (and only if) the platform layer exists.
 
 ## What I'd ask a board to commit to before starting

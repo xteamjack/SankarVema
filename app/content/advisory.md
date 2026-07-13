@@ -11,7 +11,7 @@ that has to actually ship, not just demo.
 
 ### For enterprises
 
-- **Architecture review** of an in-flight AI program &mdash; what's structurally
+- **Architecture review** of an in-flight AI program — what's structurally
   sound, what's going to break in the second year, what to stop building now.
 - **Fractional CTO / Chief AI Architect** for a 6–12 month transformation,
   embedded with the executive team.
@@ -39,14 +39,14 @@ This is unpaid for founders pre-Series A and is intentionally selective.
 - **Decisions, not status.** Engagements produce decisions and architecture
   artifacts, not slide decks of observations.
 - **I write under my own name.** Anything I produce for you stays with you.
-  Anything I publish publicly &mdash; essays, frameworks, talks &mdash; is mine
+  Anything I publish publicly — essays, frameworks, talks — is mine
   and on this site.
 
 ## What proves I can do this
 
-- **DXC Distinguished Engineer (2018)** &mdash; recognized as one of the top 8
+- **DXC Distinguished Engineer (2018)** — recognized as one of the top 8
   technologists in an organization of 165,000.
-- **Managing Partner & Head of Engineering, Brane Enterprises** &mdash; built
+- **Managing Partner & Head of Engineering, Brane Enterprises** — built
   and led an engineering org of 280+, including 42 in AI and NextGen.
 - **Account CTO** for AT&T and Zurich Insurance during my DXC years.
 - **Shipped AI products**: AI Interviewer (Pipecat + Daily.co), DigiHire.ai
@@ -68,7 +68,7 @@ This is unpaid for founders pre-Series A and is intentionally selective.
 
 ## How to engage
 
-Email me directly: **sankar.vema@gmail.com** &mdash; or use the [contact form](/contact)
+Email me directly: **sankar.vema@gmail.com** — or use the [contact form](/contact)
 and pick the intent that matches.
 
 I'll respond within a few days. If we're a fit, the first conversation is a
