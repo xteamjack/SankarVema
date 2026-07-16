@@ -154,9 +154,11 @@ export default defineContentConfig({
     }),
 
     // Essays / writing (writing/*.md)
+    // Companion LinkedIn copies (writing/*.linkedIn.md) are stored alongside
+    // each post but excluded here so they never become published pages.
     writing: defineCollection({
       type: 'page',
-      source: { include: 'writing/**', cwd },
+      source: { include: 'writing/**', exclude: ['writing/*.linkedIn.md', 'writing/*.linkedin.md'], cwd },
       schema: z.object({
         slug: z.string().optional(),
         date: z.union([z.string(), z.date()]).optional(),
