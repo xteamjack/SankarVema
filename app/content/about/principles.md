@@ -5,11 +5,12 @@ subtitle: How I think about technology, leadership, and AI
 
 ## The short version
 
-I've spent twenty-plus years inside enterprise technology — from a single
-contributor in 1998 to Managing Partner & Head of Engineering at Brane Enterprises
-today, with stops as a Distinguished Engineer at DXC (recognized as one of the
-top 8 technologists in a 165,000-person organization), Practice Head at Yash,
-and Consultant at Satyam where I helped roll out SAP Globe for Nestle Switzerland.
+I've spent twenty-five years inside enterprise technology, from a single
+contributor in 1998 to Chief AI Officer at Zettamine today, after leading
+engineering as Managing Partner at Brane Enterprises, with stops as a
+Distinguished Engineer at DXC (recognized among the top technologists in a
+165,000-person organization), Practice Head at Yash, and Consultant at Satyam
+where I helped roll out SAP Globe for Nestle Switzerland.
 
 What I'm doing now is different. I've moved my focus deliberately to **building
 AI systems** — agentic platforms, fine-tuned models, multimodal interfaces,
@@ -65,7 +66,8 @@ level, the system level, and the org level.
 
 ## Background
 
-- **Managing Partner & Head of Engineering**, Brane Enterprises (Aug 2019 – present)
+- **Chief AI Officer**, Zettamine (Oct 2025 – present)
+- **Managing Partner & Head of Engineering**, Brane Enterprises (Aug 2019 – Oct 2025)
 - **Director & Distinguished Engineer**, DXC Technologies (Jun 2012 – Aug 2019)
 - **Practice Head**, Yash Technologies (Sep 2008 – May 2012)
 - **Consultant (FLCL)**, Satyam Computer Services (Jan 2005 – Sep 2008)

@@ -44,14 +44,16 @@ This is unpaid for founders pre-Series A and is intentionally selective.
 
 ## What proves I can do this
 
-- **DXC Distinguished Engineer (2018)** — recognized as one of the top 8
-  technologists in an organization of 165,000.
-- **Managing Partner & Head of Engineering, Brane Enterprises** — built
-  and led an engineering org of 280+, including 42 in AI and NextGen.
+- **Chief AI Officer, Zettamine**: building an AI and SAP product studio
+  (DigiHire.ai, GuildTrek, cognitive ERP, industrial AI).
+- **DXC Distinguished Engineer (2018)**: recognized among the top technologists
+  in an organization of 165,000.
+- **Managing Partner & Head of Engineering, Brane Enterprises** (2019 to 2025):
+  built and led an engineering org of 280+, including 42 in AI and NextGen.
 - **Account CTO** for AT&T and Zurich Insurance during my DXC years.
-- **Shipped AI products**: AI Interviewer (Pipecat + Daily.co), DigiHire.ai
-  recruitment platform, enterprise digital twin, no-code AI platform, custom
-  LLM fine-tuning with RAG. See [Work](/work).
+- **Shipped AI products**: real-time audio-video human-interaction agents,
+  DigiHire.ai recruitment platform, enterprise digital twin, no-code AI platform,
+  custom LLM fine-tuning with RAG. See [Work](/work).
 
 ## Who I work with best
 

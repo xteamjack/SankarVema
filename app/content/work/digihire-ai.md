@@ -6,8 +6,8 @@ year: 2023–2024
 status: shipped
 stack: [LLM, Vector DB, Chrome Extension, Semantic Search, Node.js, Nuxt]
 tags: [build, transform, llm, product]
-hero: An AI-native recruitment ecosystem — sourcing, screening, ranking — that cut time-to-hire by over 60%.
-draft: true
+hero: An AI-native recruitment ecosystem (sourcing, screening, ranking) that cut time-to-hire by over 60%.
+draft: false
 ---
 
 ## The problem
@@ -20,8 +20,6 @@ into one AI-native loop where the system sources, the system screens, and the
 system ranks — with humans intervening on judgment, not janitorial work.
 
 ## Architecture
-
-> _[Architecture diagram — placeholder; insert SVG]_
 
 Three engines under one product:
 
@@ -48,14 +46,9 @@ Every rank is explainable down to the contributing signals.
 | Structured LLM evaluation over free-text + parsing | Trust and explainability | Higher prompt engineering cost up front |
 | Hybrid ranking (vector + criterion + weight) over pure-vector | Recruiters need to *steer* | More moving parts, longer eval cycles |
 
-## What I'd do differently next
-
-> _[To be filled. Honest lessons.]_
-
 ## Outcome
 
 - **>60% reduction in time-to-hire** for pilot accounts
-- _[More to fill: candidates processed, accuracy vs. recruiter baseline, NPS]_
 
 ---
 

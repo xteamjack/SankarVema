@@ -28,7 +28,12 @@ items:
     org: Presented by Dr. APJ Abdul Kalam
     note: National recognition received the same year I started my career in software.
 
-  - year: 2019–present
+  - year: 2025–present
+    title: Chief AI Officer
+    org: Zettamine
+    note: Building an AI and SAP product studio, from agentic systems and cognitive ERP to industrial AI.
+
+  - year: 2019–2025
     title: Managing Partner & Head of Engineering
     org: Brane Enterprises
     note: Built and led an engineering organization of 280+ leaders, including 42 in AI and NextGen.

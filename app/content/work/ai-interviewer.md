@@ -1,13 +1,13 @@
 ---
-title: Real-time Multimodal AI Interviewer
+title: Real-time Audio-Video Human-Interaction Agents
 slug: ai-interviewer
 role: Architect & Lead
 year: 2024
 status: shipped
 stack: [Pipecat, Daily.co, WebRTC, WebSocket, LLM, JSON Schema]
 tags: [build, agentic, multimodal, latency]
-hero: A voice-and-video AI that conducts technical, HR, and managerial screenings end-to-end — with sub-second response and structured evaluation output.
-draft: true
+hero: A voice-and-video AI that conducts technical, HR and managerial screenings end to end, with sub-second response and structured evaluation output.
+draft: false
 ---
 
 ## The problem
@@ -25,8 +25,6 @@ a textbook job for an agent. But "textbook" hides three real problems:
    Single-mode bots feel like phone trees.
 
 ## The architecture
-
-> _[Architecture diagram — placeholder; insert SVG]_
 
 - **Orchestration:** Pipecat for pipeline-style agent composition (ASR ->
   reasoning -> TTS, with interruption handling).
@@ -48,15 +46,6 @@ a textbook job for an agent. But "textbook" hides three real problems:
 | Daily.co over self-hosted WebRTC | Time-to-prod | Per-minute cost above a usage threshold |
 | Structured JSON output over free text | Comparability across candidates | Some loss of qualitative texture — mitigated with a `notes` field |
 | Sub-second target | Conversational naturalness | Forced eager inference and parallelization — meaningful compute cost |
-
-## What I'd do differently next
-
-> _[To be filled. Specific lessons. The honest ones.]_
-
-## Outcome
-
-> _[To be filled with concrete numbers: candidates screened, time saved,
-> hiring-team feedback, false-positive/negative deltas vs. human first round.]_
 
 ---
 

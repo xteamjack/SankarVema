@@ -6,8 +6,8 @@ year: 2024
 status: shipped
 stack: [Neural Networks, LLM Agents, Simulation, Vector DB, Custom Models]
 tags: [build, transform, agentic, simulation]
-hero: A hierarchy-wide digital twin of the organization — CEO down to trainee — that lets executives simulate decisions and gives every role a personalized AI mentor.
-draft: true
+hero: A hierarchy-wide digital twin of the organization, from CEO down to trainee, that lets executives simulate decisions and gives every role a personalized AI mentor.
+draft: false
 ---
 
 ## The problem
@@ -22,8 +22,6 @@ training instead of context-aware mentorship.
 This twin closes both gaps with one architecture.
 
 ## Architecture
-
-> _[Architecture diagram — placeholder; insert SVG]_
 
 - **Hierarchy model:** every role from CEO to trainee is represented as a
   node with a typed responsibility surface, decision rights, and
@@ -48,15 +46,6 @@ This twin closes both gaps with one architecture.
 - **Personalization without surveillance**: an agent that knows enough about
   your work to mentor you is also an agent that knows a lot about your work.
   Governance and consent were architecture decisions, not afterthoughts.
-
-## What I'd do differently next
-
-> _[To be filled.]_
-
-## Outcome
-
-> _[To be filled. Adoption depth, simulation accuracy, mentorship engagement
-> metrics, executive decisions actually informed by simulation output.]_
 
 ---
 

@@ -3,6 +3,8 @@ const { data: items } = await useAsyncData('writing-index', () =>
   queryCollection('writing').order('date', 'DESC').all(),
 )
 
+const visible = computed(() => (items.value ?? []).filter((i: any) => !i.draft))
+
 useSeoMeta({
   title: 'Writing',
   description:
@@ -19,8 +21,8 @@ useSeoMeta({
     />
 
     <div class="wrap py-16">
-      <div v-if="items?.length" class="grid gap-6 md:grid-cols-2">
-        <PostCard v-for="item in items" :key="item.path" :item="item" />
+      <div v-if="visible.length" class="grid gap-6 md:grid-cols-2">
+        <PostCard v-for="item in visible" :key="item.path" :item="item" />
       </div>
       <p v-else class="text-[var(--color-fg-muted)]">No essays published yet.</p>
     </div>

@@ -6,7 +6,7 @@ const { data: items } = await useAsyncData('work-index', () =>
 useSeoMeta({
   title: 'Work',
   description:
-    'Selected case studies — shipped AI systems: a real-time multimodal AI interviewer, an end-to-end AI recruitment platform, and an enterprise digital twin.',
+    'Selected case studies, shipped AI systems: real-time audio-video human-interaction agents, an end-to-end AI recruitment platform, and an enterprise digital twin.',
 })
 </script>
 
@@ -15,7 +15,7 @@ useSeoMeta({
     <PageHero
       eyebrow="Selected Work"
       title="Systems I designed and shipped."
-      subtitle="Case studies from the last few years of building AI products — the architecture, the decisions, and what each one traded."
+      subtitle="Case studies from the last few years of building AI products: the architecture, the decisions, and what each one traded."
     />
 
     <div class="wrap py-16">
