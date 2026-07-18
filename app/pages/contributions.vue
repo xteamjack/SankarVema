@@ -8,7 +8,7 @@ const items = computed<any[]>(() => (doc.value as any)?.items ?? [])
 useSeoMeta({
   title: 'Contributions',
   description:
-    'Open-source and community contributions — from Razor & Hanlon (core to Puppet provisioning) and early Android SDK work to modern AI ecosystem contributions.',
+    'Open-source and community contributions, from Razor and Hanlon (core to Puppet provisioning) and early Android SDK work to modern AI ecosystem contributions.',
 })
 </script>
 

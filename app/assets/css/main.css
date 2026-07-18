@@ -14,7 +14,7 @@
 }
 
 /* ------------------------------------------------------------------ *
- *  Color tokens — LIGHT is the default (:root), DARK overrides via .dark
+ *  Color tokens: LIGHT is the default (:root), DARK overrides via .dark
  *  Variable names are kept stable so components don't need to change.
  * ------------------------------------------------------------------ */
 :root {
@@ -251,7 +251,7 @@
 }
 
 /* ------------------------------------------------------------------ *
- *  Prose — long-form content (Nuxt Content)
+ *  Prose: long-form content (Nuxt Content)
  * ------------------------------------------------------------------ */
 .prose-editorial {
   color: var(--color-fg-muted);

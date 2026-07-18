@@ -14,8 +14,8 @@ status: outline
 ## Why this post
 
 Most public writing on enterprise AI is about *capability*: what models can
-do, what frameworks exist, what demos look like. Very little is about *adoption*
-— the unglamorous shape of an organization that actually consumes AI well.
+do, what frameworks exist, what demos look like. Very little is about *adoption*,
+the unglamorous shape of an organization that actually consumes AI well.
 After twenty years inside enterprise transformation programs, the shape is
 consistent, the failures are consistent, and almost none of it is about the
 model.
@@ -25,8 +25,8 @@ model.
 Enterprise AI succeeds when three things are present at the same time:
 **a real problem with a measurable outcome**, **a small platform team that
 owns the AI substrate**, and **a feedback loop tying production output back
-to model improvement**. Everything else — the model choice, the vendor
-deal, the framework debate — is downstream and reversible. Most programs
+to model improvement**. Everything else, the model choice, the vendor
+deal, the framework debate, is downstream and reversible. Most programs
 get the first wrong, skip the second, and never build the third. Then they
 restart with a different model.
 
@@ -34,7 +34,7 @@ restart with a different model.
 
 ### 1. Problem layer
 - Real problem or board-deck problem?
-- Measurable in dollars, hours, or risk — not "efficiency."
+- Measurable in dollars, hours, or risk, not "efficiency."
 - Reversible if the experiment fails.
 
 ### 2. Data layer
@@ -43,7 +43,7 @@ restart with a different model.
 - Don't promise model wins on top of unbuilt data plumbing.
 
 ### 3. Platform layer
-- A small (5–10 person) AI platform team owning evals, model gateway,
+- A small (5 to 10 person) AI platform team owning evals, model gateway,
   observability, governance, fine-tune pipelines, and the prompt registry.
 - Without this, every team builds its own stack and the org has 14
   half-working AI projects.
@@ -69,11 +69,11 @@ of Excellence is a budget line, not a structure.
 
 ## The 18-month operating rhythm
 
-- Months 0–3: pick one real problem, build the data layer, stand up the
+- Months 0 to 3: pick one real problem, build the data layer, stand up the
   platform team.
-- Months 3–9: ship the first capability inside an existing product. Build
+- Months 3 to 9: ship the first capability inside an existing product. Build
   the eval harness in parallel.
-- Months 9–18: second and third capabilities. Begin retiring tools the AI
+- Months 9 to 18: second and third capabilities. Begin retiring tools the AI
   capabilities replace.
 
 The shape that fails: an "AI strategy" that's really a vendor evaluation,
@@ -81,17 +81,17 @@ followed by a six-month pilot, followed by re-organizing.
 
 ## What CxOs underestimate
 
-- **The unsexy work** — data, evals, observability, governance — is
+- **The unsexy work**, data, evals, observability, governance, is
   60% of the budget.
-- **Talent dynamics** — AI engineers want to work on AI, not on data
+- **Talent dynamics**: AI engineers want to work on AI, not on data
   pipelines. Architect around that or you'll lose them.
-- **Compounding** — the second year of the program creates more value
+- **Compounding**: the second year of the program creates more value
   than the first if (and only if) the platform layer exists.
 
 ## What I'd ask a board to commit to before starting
 
-> _[List of 5–7 commitments. To be filled.]_
+> _[List of 5 to 7 commitments. To be filled.]_
 
 ---
 
-**Related:** [DigiHire.ai — AI Recruitment Platform](/work/digihire-ai) · [Enterprise Digital Twin](/work/enterprise-digital-twin)
+**Related:** [DigiHire.ai, AI Recruitment Platform](/work/digihire-ai) · [Enterprise Digital Twin](/work/enterprise-digital-twin)

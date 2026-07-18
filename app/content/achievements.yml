@@ -1,12 +1,12 @@
 intro: >-
-  Recognition across three decades — from national honours early in my career to
-  being named one of the top technologists in a 165,000-person organization. The
-  through-line: building things that mattered and shipping them at scale.
+  Recognition across three decades, from national honours early in my career to
+  Distinguished Engineer at DXC. The through-line: building things that mattered
+  and shipping them at scale.
 items:
   - year: 2018
     title: DXC Distinguished Engineer
     org: DXC Technology
-    note: Recognized as one of the top 8 technologists in an organization of 165,000.
+    note: The company's highest technical distinction, for sustained technical leadership across the organization.
 
   - year: 2015
     title: CSC Distinguished Engineer
@@ -28,17 +28,17 @@ items:
     org: Presented by Dr. APJ Abdul Kalam
     note: National recognition received the same year I started my career in software.
 
-  - year: 2025–present
+  - year: 2025 to present
     title: Chief AI Officer
     org: Zettamine
     note: Building an AI and SAP product studio, from agentic systems and cognitive ERP to industrial AI.
 
-  - year: 2019–2025
+  - year: 2019 to 2025
     title: Managing Partner & Head of Engineering
     org: Brane Enterprises
     note: Built and led an engineering organization of 280+ leaders, including 42 in AI and NextGen.
 
-  - year: 2012–2019
-    title: Account CTO — AT&T and Zurich Insurance
+  - year: 2012 to 2019
+    title: Account CTO for AT&T and Zurich Insurance
     org: DXC Technology
     note: Trusted technology advisor to two Fortune 500 accounts; built solutioning labs in AI, AR/VR, Drones, Blockchain and IoT.

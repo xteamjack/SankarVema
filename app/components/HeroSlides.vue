@@ -66,7 +66,7 @@ const capabilities = computed(() => props.capabilities ?? [])
   >
     <!-- Stacked slides (grid keeps the tallest slide's height) -->
     <div class="grid">
-      <!-- Slide 1 — the pitch -->
+      <!-- Slide 1: the pitch -->
       <div
         class="col-start-1 row-start-1 transition-all duration-700 ease-out"
         :class="active === 0 ? 'opacity-100 translate-y-0' : 'pointer-events-none opacity-0 translate-y-3'"
@@ -98,7 +98,7 @@ const capabilities = computed(() => props.capabilities ?? [])
         </div>
       </div>
 
-      <!-- Slide 2 — how I help -->
+      <!-- Slide 2: how I help -->
       <div
         class="col-start-1 row-start-1 transition-all duration-700 ease-out"
         :class="active === 1 ? 'opacity-100 translate-y-0' : 'pointer-events-none opacity-0 translate-y-3'"

@@ -12,7 +12,7 @@ const isHome = computed(() => route.path === '/')
       style="background: radial-gradient(60% 100% at 50% 0%, color-mix(in oklab, var(--color-accent) var(--glow), transparent), transparent 70%);"
     />
 
-    <!-- Profile backdrop: your photo, faint, lower-left, feathered on all edges — shared across every page -->
+    <!-- Profile backdrop: your photo, faint, lower-left, feathered on all edges, shared across every page -->
     <div
       class="pointer-events-none fixed bottom-0 left-0 -z-10 h-[88vh] w-[42vw] max-w-[560px] overflow-hidden opacity-30"
       aria-hidden="true"

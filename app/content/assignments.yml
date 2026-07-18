@@ -1,45 +1,45 @@
 intro: >-
-  Three decades across consulting, delivery and offering design — for governments,
+  Three decades across advisory, delivery and practice design, for governments,
   Fortune 500 manufacturers, banks, insurers and telecoms. The common thread:
   high-stakes programs where the technology had to actually work at scale.
 segments:
   - title: Consulting & Advisory
     summary: >-
-      Trusted advisor to boards and CxOs on technology strategy, architecture and
-      transformation — brought in when the decision is expensive and the stakes are real.
+      Trusted technology advisor to boards and CxOs on architecture and
+      transformation, brought in when the decision is expensive and the stakes are real.
     highlights:
       - Account CTO for AT&T and Zurich Insurance
-      - Technology advisory on the Tata – Jaguar Land Rover merger
+      - Technology advisory on the Tata and Jaguar Land Rover merger
       - Engagement with Airbus on next-generation engineering
-      - Due diligence and architecture review for Fortune 500 leadership
+      - Technical due diligence and architecture review for Fortune 500 leadership
 
   - title: Project Delivery
     summary: >-
       End-to-end delivery of complex enterprise programs across manufacturing, FMCG,
-      healthcare and financial services — owned outcomes, not just advice.
+      healthcare and financial services, owning the outcome and not just the advice.
     highlights:
       - SAP Globe template rollout for Nestlé, Switzerland
       - Enterprise programs for Hyundai, John Deere, Caterpillar and Philips
       - Payments and financial-services delivery for Mastercard
-      - Port operations, Terminal, Gate and Yard Management Systems for Government of India port trusts
+      - Terminal, gate and yard management systems for Government of India port trusts
 
-  - title: Offering & Practice Design
+  - title: Practice & Capability Design
     summary: >-
-      Designed and stood up next-generation practices and productized offerings from
-      zero — turning emerging technology into repeatable, sellable capability.
+      Designed and stood up next-generation engineering practices from zero, turning
+      emerging technology into repeatable, production-ready capability.
     highlights:
       - Solutioning labs across AI/ML, IoT, Drones, Blockchain and AR/VR
-      - MS Dynamics and SharePoint consulting practices built from scratch
+      - MS Dynamics and SharePoint engineering practices built from scratch
       - Reusable accelerators and reference architectures for enterprise AI
 
   - title: Innovation & Transformation
     summary: >-
-      Led innovation and digital-transformation initiatives — from executive showcase
+      Led innovation and digital-transformation initiatives, from executive showcase
       centers to nation-scale public-sector modernization.
     highlights:
       - Innovation labs and technology showcase centers (Sofia, Bangalore)
       - Digital adoption across Vizag, Chennai and JNPT port trusts, reporting to the PMO
-      - Next-gen practice areas in Robotics, Drones and Industrial IoT
+      - Next-generation practice areas in Robotics, Drones and Industrial IoT
 
 customers:
   - name: Government of India

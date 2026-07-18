@@ -17,7 +17,7 @@ useSeoMeta({
     <PageHero
       eyebrow="Writing"
       title="Notes on building AI that ships."
-      subtitle="Opinionated, practical writing on agentic systems and enterprise AI — the parts that survive contact with production."
+      subtitle="Opinionated, practical writing on agentic systems and enterprise AI, the parts that survive contact with production."
     />
 
     <div class="wrap py-16">

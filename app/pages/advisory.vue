@@ -10,7 +10,7 @@ if (!doc.value) {
 useSeoMeta({
   title: () => (doc.value?.title as string) ?? 'Advisory',
   description:
-    'Where I am useful, how I work, and who I work with — enterprise architecture engagements and a selective founder mentorship cohort.',
+    'Where I am useful, how I work, and who I work with, across enterprise architecture engagements and a selective founder mentorship cohort.',
 })
 </script>
 

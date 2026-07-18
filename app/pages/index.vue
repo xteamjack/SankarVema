@@ -64,7 +64,7 @@ useSeoMeta({
   title: "Sankar Vema · AI Builder & Architect",
   ogTitle: "Sankar Vema · AI Builder & Architect of Agentic Systems",
   description:
-    "I design AI systems that ship — and advise the leaders betting on them. Enterprise AI advisory, architecture, and founder mentorship.",
+    "I architect systems that ship, and advise the leaders betting on them. Enterprise AI advisory, architecture, and founder mentorship.",
 });
 </script>
 
@@ -92,11 +92,12 @@ useSeoMeta({
         <h2
           class="font-[family-name:var(--font-display)] text-3xl tracking-tight text-[var(--color-fg)] sm:text-5xl"
         >
-          Systems I designed and shipped.
+          Systems I architected and shipped.
         </h2>
         <p class="mt-4 text-[var(--color-fg-muted)]">
-          Production AI — not demos. Each case study walks the architecture, the
-          decisions, and what it traded.
+          Production systems, not demos, across six domains from language and
+          silicon to autonomous flight. Each case study walks the architecture,
+          the decisions, and what it traded.
         </p>
       </div>
       <div class="mt-8 grid gap-5 md:grid-cols-3">
@@ -127,8 +128,8 @@ useSeoMeta({
           Trusted by governments and the Fortune 500.
         </h2>
         <p class="mt-4 text-[var(--color-fg-muted)]">
-          Three decades across consulting, project delivery and offering design —
-          for the organizations where the technology had to work at scale.
+          Three decades across advisory, delivery and practice design, for the
+          organizations where the technology had to work at scale.
         </p>
       </div>
 
@@ -169,7 +170,7 @@ useSeoMeta({
           Three decades, one trajectory.
         </h2>
         <p class="mt-4 text-[var(--color-fg-muted)]">
-          From a single contributor in 1998 to AI architect today — leadership
+          From a single contributor in 1998 to AI architect today, leadership
           years used as ballast, not identity.
         </p>
       </div>
@@ -333,7 +334,7 @@ useSeoMeta({
         </h2>
         <p class="mt-5 max-w-2xl text-lg text-[var(--color-fg-muted)]">
           I'm the architect-on-call for leadership teams building AI that has to
-          ship — not just demo. The first conversation is a free 30-minute
+          ship, not just demo. The first conversation is a free 30-minute
           diagnosis. I won't sell; I'll diagnose.
         </p>
 
@@ -346,7 +347,7 @@ useSeoMeta({
               },
               {
                 t: 'Fractional Chief AI Architect',
-                d: 'Embedded with your exec team for a 6–12 month transformation.',
+                d: 'Embedded with your exec team for a 6 to 12 month transformation.',
               },
               {
                 t: 'Founder mentorship',

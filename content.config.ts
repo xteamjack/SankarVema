@@ -137,13 +137,33 @@ export default defineContentConfig({
       }),
     }),
 
+    // Work domains — practice areas that group the case studies (domains.yml)
+    domains: defineCollection({
+      type: 'data',
+      source: { include: 'domains.yml', cwd },
+      schema: z.object({
+        items: z.array(
+          z.object({
+            key: z.string(),
+            title: z.string(),
+            thesis: z.string().optional(),
+            order: z.number().optional(),
+          }),
+        ),
+      }),
+    }),
+
     // Case studies (work/*.md)
     work: defineCollection({
       type: 'page',
       source: { include: 'work/**', cwd },
       schema: z.object({
         slug: z.string().optional(),
+        domain: z.string().optional(),
         role: z.string().optional(),
+        context: z.string().optional(),
+        scale: z.string().optional(),
+        impact: z.string().optional(),
         year: z.union([z.number(), z.string()]).optional(),
         status: z.string().optional(),
         stack: z.array(z.string()).optional(),

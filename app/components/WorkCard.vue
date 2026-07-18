@@ -27,6 +27,11 @@ const stack = computed<string[]>(() => props.item?.stack ?? [])
     </div>
 
     <div class="flex flex-1 flex-col p-6">
+      <p v-if="item.context || item.scale" class="mb-2 font-[family-name:var(--font-mono)] text-[0.68rem] uppercase tracking-wider text-[var(--color-fg-faint)]">
+        <span v-if="item.context">{{ item.context }}</span>
+        <span v-if="item.context && item.scale" class="mx-1.5 text-[var(--color-hair-strong)]">/</span>
+        <span v-if="item.scale">{{ item.scale }}</span>
+      </p>
       <h3
         class="font-[family-name:var(--font-display)] text-lg leading-snug tracking-tight text-[var(--color-fg)] transition-colors group-hover:text-[var(--color-accent-soft)]"
         v-html="item.title"

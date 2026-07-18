@@ -17,16 +17,16 @@ intro: >
 metrics:
   - value: "25+"
     label: years in enterprise technology
-  - value: Top 8
-    label: of 165,000 — DXC Distinguished Engineer
+  - value: "15+"
+    label: systems architected and shipped
   - value: "280+"
     label: engineers led at Brane
-  - value: "5+"
-    label: AI products shipped
+  - value: Fortune 500
+    label: leaders advised across the US and Europe
 capabilities:
   - title: Build
-    tagline: I design AI systems and agents
-    body: Agentic architectures, multimodal interfaces, RAG pipelines and fine-tuned models, from real-time audio-video human-interaction agents to an enterprise digital twin.
+    tagline: I architect systems, from AI to silicon
+    body: Agentic architectures, multimodal interfaces, RAG pipelines and fine-tuned models, and deeper still. I have taken work from real-time audio-video agents and an enterprise digital twin down to a custom language, its compiler and custom silicon.
     link: /work
     cta: See the work
   - title: Transform
@@ -43,4 +43,4 @@ capabilities:
 
 If you're a leadership team betting seriously on AI, I'm the architect-on-call who
 has already lived the second-year problems. I take on a small number of engagements
-at a time — deep over wide. The first conversation is a free 30-minute diagnosis.
+at a time, deep over wide. The first conversation is a free 30-minute diagnosis.

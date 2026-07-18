@@ -9,7 +9,7 @@ const customers = computed<any[]>(() => (doc.value as any)?.customers ?? [])
 useSeoMeta({
   title: 'Assignments',
   description:
-    'Industries and customers across consulting, project delivery and offering design — Government of India, Nestlé, Philips, AT&T, Zurich, Mastercard, John Deere, Caterpillar, Airbus, Hyundai, KONE and Tata JLR.',
+    'Industries and customers across advisory, delivery and practice design, spanning Government of India, Nestlé, Philips, AT&T, Zurich, Mastercard, John Deere, Caterpillar, Airbus, Hyundai, KONE and Tata JLR.',
 })
 </script>
 

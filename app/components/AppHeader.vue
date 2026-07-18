@@ -35,7 +35,7 @@ onUnmounted(() => window.removeEventListener('scroll', onScroll))
   >
     <!-- Row 1: name + nav + controls -->
     <div class="wrap flex h-14 items-center justify-between">
-      <NuxtLink to="/" class="group flex items-center gap-2.5" aria-label="Sankar Vema — home">
+      <NuxtLink to="/" class="group flex items-center gap-2.5" aria-label="Sankar Vema home">
         <span
           class="grid h-9 w-9 place-items-center rounded-lg border border-[var(--color-hair-strong)] bg-[var(--color-ink-850)] font-[family-name:var(--font-display)] text-sm text-[var(--color-accent)] transition-colors group-hover:border-[var(--color-accent)]"
         >SV</span>
@@ -78,7 +78,7 @@ onUnmounted(() => window.removeEventListener('scroll', onScroll))
         <span class="h-1.5 w-1.5 shrink-0 rounded-full bg-[var(--color-accent)]" />
         <p class="truncate text-[13px] text-[var(--color-fg-muted)]">
           <span class="text-[var(--color-fg)]">{{ profile?.role }}</span>
-          <span v-if="profile?.tagline" class="text-[var(--color-fg-faint)]"> — {{ profile?.tagline }}</span>
+          <span v-if="profile?.tagline" class="text-[var(--color-fg-faint)]"> · {{ profile?.tagline }}</span>
         </p>
       </div>
     </div>

@@ -19,7 +19,7 @@ useSeoMeta({
 })
 
 function stripHtml(s?: string) {
-  return (s ?? '').replace(/&mdash;/g, '—').replace(/<[^>]*>/g, '')
+  return (s ?? '').replace(/<[^>]*>/g, '')
 }
 </script>
 
@@ -34,6 +34,14 @@ function stripHtml(s?: string) {
             <dt class="font-[family-name:var(--font-mono)] text-xs uppercase tracking-wider text-[var(--color-fg-faint)]">Role</dt>
             <dd class="mt-1 text-[var(--color-fg)]">{{ d.role }}</dd>
           </div>
+          <div v-if="d?.context">
+            <dt class="font-[family-name:var(--font-mono)] text-xs uppercase tracking-wider text-[var(--color-fg-faint)]">Context</dt>
+            <dd class="mt-1 text-[var(--color-fg)]">{{ d.context }}</dd>
+          </div>
+          <div v-if="d?.scale">
+            <dt class="font-[family-name:var(--font-mono)] text-xs uppercase tracking-wider text-[var(--color-fg-faint)]">Scale</dt>
+            <dd class="mt-1 text-[var(--color-fg)]">{{ d.scale }}</dd>
+          </div>
           <div v-if="d?.year">
             <dt class="font-[family-name:var(--font-mono)] text-xs uppercase tracking-wider text-[var(--color-fg-faint)]">Year</dt>
             <dd class="mt-1 text-[var(--color-fg)]">{{ d.year }}</dd>
@@ -43,6 +51,10 @@ function stripHtml(s?: string) {
             <dd class="mt-1 inline-flex items-center gap-1.5 text-[var(--color-accent)]">
               <span class="h-1.5 w-1.5 rounded-full bg-[var(--color-accent)]" />{{ d.status }}
             </dd>
+          </div>
+          <div v-if="d?.impact">
+            <dt class="font-[family-name:var(--font-mono)] text-xs uppercase tracking-wider text-[var(--color-fg-faint)]">Impact</dt>
+            <dd class="mt-1 text-[var(--color-fg)]">{{ d.impact }}</dd>
           </div>
         </dl>
 

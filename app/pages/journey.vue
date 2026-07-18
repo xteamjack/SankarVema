@@ -10,7 +10,7 @@ const entries = computed<any[]>(() => {
 useSeoMeta({
   title: 'My Journey',
   description:
-    'Three decades from single contributor to AI architect — the full trajectory across enterprise scale, government digital transformation, and shipped AI products.',
+    'Three decades from single contributor to AI architect, the full trajectory across enterprise scale, government digital transformation, and shipped AI products.',
 })
 </script>
 
@@ -18,7 +18,7 @@ useSeoMeta({
   <div>
     <PageHero
       eyebrow="My Journey"
-      title="From contributor to architect — the long version."
+      title="From contributor to architect, the long version."
       subtitle="Twenty-plus years across enterprise scale, government transformation, and now AI. The leadership years are ballast; the building is the identity."
     >
       <template #meta>
@@ -47,7 +47,7 @@ useSeoMeta({
           The next chapter is advisory.
         </p>
         <p class="mt-3 max-w-xl text-[var(--color-fg-muted)]">
-          I now spend my time helping leadership teams build AI that ships — and mentoring the founders building on top of it.
+          I now spend my time helping leadership teams build AI that ships, and mentoring the founders building on top of it.
         </p>
         <div class="mt-6 flex flex-wrap gap-3">
           <NuxtLink to="/contact" class="btn btn-primary">

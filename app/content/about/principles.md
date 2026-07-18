@@ -8,13 +8,12 @@ subtitle: How I think about technology, leadership, and AI
 I've spent twenty-five years inside enterprise technology, from a single
 contributor in 1998 to Chief AI Officer at Zettamine today, after leading
 engineering as Managing Partner at Brane Enterprises, with stops as a
-Distinguished Engineer at DXC (recognized among the top technologists in a
-165,000-person organization), Practice Head at Yash, and Consultant at Satyam
+Distinguished Engineer at DXC, Practice Head at Yash, and Consultant at Satyam
 where I helped roll out SAP Globe for Nestle Switzerland.
 
 What I'm doing now is different. I've moved my focus deliberately to **building
-AI systems** — agentic platforms, fine-tuned models, multimodal interfaces,
-RAG architectures — and using the executive years as ballast, not identity.
+AI systems**, agentic platforms, fine-tuned models, multimodal interfaces and
+RAG architectures, using the executive years as ballast, not identity.
 
 The shorthand: I was a generalist exec who designed and ran big things.
 Today I'm an AI builder who knows how big things actually work.
@@ -24,8 +23,8 @@ Today I'm an AI builder who knows how big things actually work.
 ### 1. Architecture is a series of bets, not a diagram
 
 A diagram tells you what *fits*. A bet tells you what *might break*. Senior
-architects spend less time drawing and more time naming the bets out loud
-— the failure mode, the latency assumption, the cost curve, the regret
+architects spend less time drawing and more time naming the bets out loud:
+the failure mode, the latency assumption, the cost curve, the regret
 window. The diagram is a compression of the conversation. Don't ship without
 the conversation.
 
@@ -66,13 +65,13 @@ level, the system level, and the org level.
 
 ## Background
 
-- **Chief AI Officer**, Zettamine (Oct 2025 – present)
-- **Managing Partner & Head of Engineering**, Brane Enterprises (Aug 2019 – Oct 2025)
-- **Director & Distinguished Engineer**, DXC Technologies (Jun 2012 – Aug 2019)
-- **Practice Head**, Yash Technologies (Sep 2008 – May 2012)
-- **Consultant (FLCL)**, Satyam Computer Services (Jan 2005 – Sep 2008)
-- **Nodal Officer**, Ministry of Shipping, Govt. of India (Sep 2001 – Dec 2004)
-- Earlier: Business Software Solutions, eInfoSystems (1998 – 2001)
+- **Chief AI Officer**, Zettamine (Oct 2025 to present)
+- **Managing Partner & Head of Engineering**, Brane Enterprises (Aug 2019 to Oct 2025)
+- **Director & Distinguished Engineer**, DXC Technologies (Jun 2012 to Aug 2019)
+- **Practice Head**, Yash Technologies (Sep 2008 to May 2012)
+- **Consultant (FLCL)**, Satyam Computer Services (Jan 2005 to Sep 2008)
+- **Nodal Officer**, Ministry of Shipping, Govt. of India (Sep 2001 to Dec 2004)
+- Earlier: Business Software Solutions, eInfoSystems (1998 to 2001)
 
 **Education:** Executive Leadership Program, Duke Fuqua University · MSc Computers,
 Andhra University · TOGAF 8, PMP, CISM, CSM, ITIL, Six Sigma Black Belt

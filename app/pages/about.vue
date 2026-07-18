@@ -15,7 +15,7 @@ const entries = computed<any[]>(() => (timeline.value as any)?.entries ?? [])
 useSeoMeta({
   title: () => (doc.value?.title as string) ?? 'About',
   description:
-    'From a single contributor in 1998 to AI builder and architect today — how I think about technology, leadership and AI.',
+    'From a single contributor in 1998 to AI builder and architect today, and how I think about technology, leadership and AI.',
 })
 </script>
 

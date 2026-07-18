@@ -8,7 +8,7 @@ const items = computed<any[]>(() => (doc.value as any)?.items ?? [])
 useSeoMeta({
   title: 'Achievements',
   description:
-    'Awards and recognition across three decades — DXC Distinguished Engineer (top 8 of 165,000), national honours, and Fortune 500 trust.',
+    'Awards and recognition across three decades, from national honours to Distinguished Engineer at DXC and the trust of Fortune 500 leadership.',
 })
 </script>
 

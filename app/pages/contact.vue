@@ -17,7 +17,7 @@ const message = ref('')
 
 const mailto = computed(() => {
   const intent = intents.find(i => i.id === selected.value)?.label ?? 'Inquiry'
-  const subject = `[${intent}] — from ${name.value || 'your site'}`
+  const subject = `[${intent}] from ${name.value || 'your site'}`
   const bodyLines = [
     name.value && `Name: ${name.value}`,
     org.value && `Organization: ${org.value}`,
@@ -31,7 +31,7 @@ const mailto = computed(() => {
 
 useSeoMeta({
   title: 'Contact',
-  description: 'Start a conversation — enterprise advisory, founder mentorship, due diligence, or speaking.',
+  description: 'Start a conversation about enterprise advisory, founder mentorship, due diligence, or speaking.',
 })
 </script>
 
@@ -40,7 +40,7 @@ useSeoMeta({
     <PageHero
       eyebrow="Contact"
       title="Start a conversation."
-      subtitle="I read everything that comes in and respond within a few days. Pick the intent that fits — it helps me reply usefully."
+      subtitle="I read everything that comes in and respond within a few days. Pick the intent that fits, it helps me reply usefully."
     />
 
     <div class="wrap grid gap-12 py-16 lg:grid-cols-[1fr_20rem]">

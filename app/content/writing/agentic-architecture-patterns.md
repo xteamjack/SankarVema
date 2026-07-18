@@ -3,7 +3,7 @@ title: Five Patterns I Keep Reaching For When Designing Agentic Systems
 slug: agentic-architecture-patterns
 date: 2026-06-15
 tags: [build, agentic, architecture]
-excerpt: An opinionated tour of the patterns that have survived contact with production across my last five agent builds — and the ones I've stopped reaching for.
+excerpt: An opinionated tour of the patterns that have survived contact with production across my last five agent builds, and the ones I've stopped reaching for.
 draft: true
 status: outline
 ---
@@ -16,7 +16,7 @@ status: outline
 There's a lot of writing on what agents *are* and very little on what
 *shipping* one looks like. I want this post to compress what I've learned
 across the AI Interviewer, DigiHire, the no-code platform, and the digital
-twin builds — the patterns I keep reaching for, why, and the ones that
+twin builds, the patterns I keep reaching for, why, and the ones that
 sounded good in theory but never made it past the second iteration.
 
 ## The argument in one paragraph
@@ -36,10 +36,10 @@ not better.
   schema is harm.
 - Example from the AI Interviewer: rubric-aligned JSON per round, not transcripts.
 
-## Pattern 2: Tools are the API surface — treat them like one
+## Pattern 2: Tools are the API surface, treat them like one
 
 - Why: an agent with too many tools is an agent with no tools.
-- How: 5–9 tools, named like product features, with explicit pre- and
+- How: 5 to 9 tools, named like product features, with explicit pre- and
   postconditions in their descriptions. Version them.
 - The mistake: exposing the database schema as 40 micro-tools.
 
@@ -69,17 +69,17 @@ not better.
 
 ## Patterns I've stopped reaching for
 
-- **Pure ReAct loops with unlimited horizon** — impressive in benchmarks,
+- **Pure ReAct loops with unlimited horizon**, impressive in benchmarks,
   unwieldy in production. Cap the steps; orchestrate the rest.
-- **One mega-prompt with everything in it** — readable for a week, then a
+- **One mega-prompt with everything in it**, readable for a week, then a
   liability forever.
-- **"Let the agent decide" as a UX choice** — users want predictability.
+- **"Let the agent decide" as a UX choice**: users want predictability.
   Agents are an implementation detail of the product, not its surface.
 
 ## What this implies for teams
 
 - Hire (or grow) a platform engineer before the second model swap.
-- Budget for the eval harness like you'd budget for tests — because that's
+- Budget for the eval harness like you'd budget for tests, because that's
   what it is.
 - Pick a battle-tested orchestrator before you pick a clever model.
 

@@ -1,0 +1,42 @@
+items:
+  - key: frontier
+    title: Frontier & Deep-Tech Engineering
+    thesis: >-
+      Programs that go all the way down the stack, from language and compiler
+      design through custom silicon and production hardware.
+    order: 1
+
+  - key: ai-products
+    title: Agentic & Applied AI Products
+    thesis: >-
+      Agentic and multimodal AI products architected end to end and shipped into
+      real enterprise use, not left as demos.
+    order: 2
+
+  - key: industrial-vision
+    title: Industrial AI & Computer Vision
+    thesis: >-
+      Vision and machine-learning systems that run on the factory floor, the
+      mine and the clinic, where a wrong answer has a physical cost.
+    order: 3
+
+  - key: autonomous
+    title: Autonomous Systems & Robotics
+    thesis: >-
+      Aerial and autonomous platforms designed, built and flown, from
+      heavy-lift and high-altitude payloads to coordinated swarms.
+    order: 4
+
+  - key: enterprise-core
+    title: Enterprise Modernization & Cognitive ERP
+    thesis: >-
+      Modernizing the systems the business actually runs on, layering AI onto
+      the enterprise core rather than ripping it out.
+    order: 5
+
+  - key: public-sector
+    title: Nation-Scale & Public-Sector Platforms
+    thesis: >-
+      Platforms delivered at the scale of a nation's infrastructure, under
+      public accountability and real operational stakes.
+    order: 6

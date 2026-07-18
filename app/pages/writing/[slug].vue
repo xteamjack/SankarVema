@@ -25,7 +25,7 @@ useSeoMeta({
 })
 
 function stripHtml(s?: string) {
-  return (s ?? '').replace(/&mdash;/g, '—').replace(/<[^>]*>/g, '')
+  return (s ?? '').replace(/&mdash;/g, ', ').replace(/<[^>]*>/g, '')
 }
 </script>
 
