@@ -11,7 +11,7 @@ const nav = [
   { label: 'About', to: '/about' },
   { label: 'Writing', to: '/writing' },
   { label: 'Advisory', to: '/advisory' },
-  { label: 'Contact', to: '/contact' },
+  { label: 'Ask', to: '/contact' },
 ]
 </script>
 

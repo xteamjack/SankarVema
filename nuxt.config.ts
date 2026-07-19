@@ -8,6 +8,17 @@ export default defineNuxtConfig({
 
   devtools: { enabled: true },
 
+  // CRM base URL for the ask/contact form. Baked at build time from
+  // NUXT_PUBLIC_CRM_URL (set in the deploy workflow), e.g. https://digihire.ai/crm.
+  // Empty in local dev unless the env var is set.
+  // TODO (deferred): resolve this from the config server's `apps.crm` entry
+  // instead of a hardcoded env, to match how digihire apps resolve URLs.
+  runtimeConfig: {
+    public: {
+      crmUrl: process.env.NUXT_PUBLIC_CRM_URL || '',
+    },
+  },
+
   modules: ['@nuxt/content', '@nuxt/fonts', '@nuxtjs/color-mode'],
 
   colorMode: {

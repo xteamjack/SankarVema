@@ -42,6 +42,9 @@ jobs:
         run: pnpm generate
         env:
           NODE_OPTIONS: --max-old-space-size=4096
+          # CRM base for the ask/contact form intake (same CRM the Zettamine
+          # site uses). Baked into the client bundle as runtimeConfig.public.crmUrl.
+          NUXT_PUBLIC_CRM_URL: https://digihire.ai/crm
 
       - name: Upload Pages artifact
         uses: actions/upload-pages-artifact@v3

@@ -69,6 +69,25 @@ function stripHtml(s?: string) {
         <ContentRenderer :value="doc" />
       </div>
 
+      <!-- Talk-to-me CTA: carries the case study slug so the enquiry lands with context -->
+      <div class="card relative mt-14 overflow-hidden p-8 sm:p-10">
+        <div
+          class="pointer-events-none absolute -right-16 -top-16 h-56 w-56 rounded-full opacity-60"
+          style="background: radial-gradient(circle, color-mix(in oklab, var(--color-accent) 26%, transparent), transparent 70%);"
+          aria-hidden="true"
+        />
+        <h2 class="font-[family-name:var(--font-display)] text-2xl tracking-tight text-[var(--color-fg)] sm:text-3xl">
+          Have a similar challenge?
+        </h2>
+        <p class="mt-3 max-w-xl text-[var(--color-fg-muted)]">
+          If this maps to something you're wrestling with, let's talk it through.
+        </p>
+        <NuxtLink :to="`/contact?ref=${route.params.slug}`" class="btn btn-primary mt-6">
+          Let's discuss
+          <svg class="h-4 w-4" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 6l6 6-6 6" /></svg>
+        </NuxtLink>
+      </div>
+
       <div class="mt-14 border-t border-[var(--color-hair)] pt-8">
         <NuxtLink to="/work" class="link-underline inline-flex items-center gap-1.5 text-sm text-[var(--color-fg-muted)] hover:text-[var(--color-fg)]">
           <svg class="h-4 w-4" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M19 12H5M11 18l-6-6 6-6" /></svg>
