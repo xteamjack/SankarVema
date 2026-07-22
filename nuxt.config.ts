@@ -97,6 +97,7 @@ export default defineNuxtConfig({
         '/work',
         '/writing',
         '/contact',
+        '/intro',
         '/404.html',
       ],
       failOnError: false,
