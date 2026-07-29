@@ -1,6 +1,9 @@
 <script setup lang="ts">
 const tab = ref<'short' | 'long'>('short')
 
+// baseURL-prefixed so the photo resolves under a sub-path deploy.
+const { app } = useRuntimeConfig()
+
 useSeoMeta({
   title: 'Introduction',
   description:
@@ -22,7 +25,7 @@ useSeoMeta({
         <aside class="lg:sticky lg:top-24 lg:self-start">
           <div class="overflow-hidden rounded-2xl border border-[var(--color-hair)] bg-[var(--color-ink-850)]">
             <img
-              src="/profilePic.jpg"
+              :src="`${app.baseURL}profilePic.jpg`"
               alt="Sankar Vema"
               class="aspect-[4/5] w-full object-cover object-top"
             />

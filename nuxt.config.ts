@@ -1,4 +1,15 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
+
+// Dual-mode, mirroring the zettamine site. The GitHub Pages deploy workflow sets
+// NUXT_GITHUB_PAGES=true and runs `pnpm generate` → a fully STATIC build served
+// under the project sub-path /SankarVema/. Unset (the default) → node-server SSR,
+// which is what the Azure fleet runs (served under /sankarvema/ on the guildtrek
+// gateway); SSR is required so the chat server routes work and useRequestURL()
+// resolves the CRM host from the live request. The deploy injects
+// NUXT_APP_BASE_URL at runtime; locally, unset → '/'.
+const isPagesBuild = process.env.NUXT_GITHUB_PAGES === 'true'
+const appBaseURL = process.env.NUXT_APP_BASE_URL || (isPagesBuild ? '/SankarVema/' : '/')
+
 export default defineNuxtConfig({
   compatibilityDate: '2025-06-15',
 
@@ -19,7 +30,19 @@ export default defineNuxtConfig({
     },
   },
 
-  modules: ['@nuxt/content', '@nuxt/fonts', '@nuxtjs/color-mode'],
+  // NOTE: @nuxt/fonts was removed in favour of a Google Fonts <link> below. It
+  // pins esbuild ^0.25.4 while vite/nuxt pull esbuild 0.28.1, and npm's flat
+  // install + `npm rebuild` in the container Dockerfile can't reconcile two
+  // esbuild versions against one native binary (the fleet's standalone sites,
+  // zettamine/gt, load fonts the same way for the same reason). Same fonts.
+  modules: ['@nuxt/content', '@nuxtjs/color-mode', '@nuxt/icon'],
+
+  // SVG mode + the lucide collection are bundled (offline) so the chat widget's
+  // icons render in the container without an Iconify API round-trip.
+  icon: {
+    mode: 'svg',
+    class: 'inline-block',
+  },
 
   colorMode: {
     preference: 'light',
@@ -38,11 +61,12 @@ export default defineNuxtConfig({
     },
   },
 
-  // Served from a GitHub project page (https://xteamjack.github.io/SankarVema/).
-  // A project repo is served under the repo-name sub-path, so baseURL must match
-  // the repo name — otherwise every /_nuxt/* asset 404s and the page is blank.
+  // baseURL: '/SankarVema/' for the GitHub project page, '/sankarvema/' on the
+  // Azure gateway (injected via NUXT_APP_BASE_URL), '/' locally. A project repo is
+  // served under a sub-path, so this must match — otherwise every /_nuxt/* asset
+  // 404s and the page is blank.
   app: {
-    baseURL: '/SankarVema/',
+    baseURL: appBaseURL,
     head: {
       htmlAttrs: { lang: 'en' },
       titleTemplate: (title?: string) =>
@@ -59,6 +83,17 @@ export default defineNuxtConfig({
         { property: 'og:type', content: 'website' },
         { property: 'og:site_name', content: 'Sankar Vema' },
       ],
+      // Fonts via Google Fonts CDN (replaces @nuxt/fonts). Same families the
+      // theme in assets/css/main.css references: Fraunces (display), Inter
+      // (sans), JetBrains Mono (mono). Absolute URLs, so unaffected by baseURL.
+      link: [
+        { rel: 'preconnect', href: 'https://fonts.googleapis.com' },
+        { rel: 'preconnect', href: 'https://fonts.gstatic.com', crossorigin: '' },
+        {
+          rel: 'stylesheet',
+          href: 'https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400..700&family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;600&display=swap',
+        },
+      ],
       // NB: the favicon <link> is set in app.vue, not here — a static href in
       // this config is emitted verbatim and is NOT prefixed with app.baseURL,
       // so on the GitHub Pages project sub-path it would 404. app.vue builds
@@ -74,37 +109,31 @@ export default defineNuxtConfig({
     },
   },
 
-  fonts: {
-    families: [
-      { name: 'Fraunces', provider: 'google' },
-      { name: 'Inter', provider: 'google' },
-      { name: 'JetBrains Mono', provider: 'google' },
-    ],
-  },
-
-  // Static generation for GitHub Pages.
-  nitro: {
-    prerender: {
-      crawlLinks: true,
-      routes: [
-        '/',
-        '/about',
-        '/assignments',
-        '/journey',
-        '/achievements',
-        '/contributions',
-        '/advisory',
-        '/work',
-        '/writing',
-        '/contact',
-        '/intro',
-        '/404.html',
-      ],
-      failOnError: false,
-    },
-  },
-
-  routeRules: {
-    '/**': { prerender: true },
-  },
+  // GitHub Pages (NUXT_GITHUB_PAGES=true): fully static prerender of the site.
+  // Otherwise (Azure/local): node-server SSR (nitro: {}), so the /api/chat routes
+  // run and useRequestURL() resolves the CRM host from the live request. `nuxt
+  // generate` in the Pages workflow already selects the prerender preset; the
+  // explicit route seed + crawlLinks ensures every content page is emitted.
+  nitro: isPagesBuild
+    ? {
+        prerender: {
+          crawlLinks: true,
+          routes: [
+            '/',
+            '/about',
+            '/assignments',
+            '/journey',
+            '/achievements',
+            '/contributions',
+            '/advisory',
+            '/work',
+            '/writing',
+            '/contact',
+            '/intro',
+            '/404.html',
+          ],
+          failOnError: false,
+        },
+      }
+    : {},
 })

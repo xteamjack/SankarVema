@@ -1,6 +1,10 @@
 <script setup lang="ts">
 const route = useRoute()
 const isHome = computed(() => route.path === '/')
+
+// Public assets must be baseURL-prefixed so they resolve under a sub-path
+// (/SankarVema/ on GitHub Pages, /sankarvema/ on the Azure gateway).
+const { app } = useRuntimeConfig()
 </script>
 
 <template>
@@ -22,7 +26,7 @@ const isHome = computed(() => route.path === '/')
       "
     >
       <img
-        src="/profilePic.jpg"
+        :src="`${app.baseURL}profilePic.jpg`"
         alt=""
         class="h-full w-full -scale-x-100 object-cover object-center"
       />
@@ -33,5 +37,11 @@ const isHome = computed(() => route.path === '/')
       <slot />
     </main>
     <AppFooter v-if="!isHome" />
+
+    <!-- Floating AI guide (chat + explain-this-page). Client-only: it uses
+         SpeechSynthesis and streams from /api/chat, both browser-side. -->
+    <ClientOnly>
+      <ChatWidget />
+    </ClientOnly>
   </div>
 </template>

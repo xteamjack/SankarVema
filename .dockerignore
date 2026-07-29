@@ -1,0 +1,19 @@
+# Build hygiene — keep host artifacts out of the Docker build context.
+# Without this, COPY . . in Dockerfile.nuxt overwrites the alpine-installed
+# node_modules with the host (Windows/pnpm) ones. That reintroduces pnpm's
+# nested vite/esbuild (0.27.7) alongside the hoisted 0.28.1 binary, so
+# `npm rebuild` fails esbuild's strict version check (and native deps like
+# better-sqlite3 crash with Exec format error). Mirrors n_dh_w_fe_corp/gt.
+node_modules
+.nuxt
+.output
+.next
+dist
+.data
+.git
+.gitignore
+.env
+.env.*
+*.log
+.DS_Store
+Thumbs.db

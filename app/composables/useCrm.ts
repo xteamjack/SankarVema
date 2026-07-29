@@ -1,17 +1,31 @@
 /**
  * Resolve the CRM base URL for the ask/contact form.
  *
- * The site is a static GitHub Pages build with no backend of its own, so the
- * ask form POSTs cross-origin to the CRM's public queries intake
- * (`<crmUrl>/api/public/queries`). The base comes from
- * `runtimeConfig.public.crmUrl`, baked from NUXT_PUBLIC_CRM_URL at build time.
+ * Two deployment shapes, one build:
+ *  - Azure / SSR: the CRM (leads-service) is reverse-proxied SAME-ORIGIN under
+ *    the `/crm` slug on whichever host serves this site (e.g. guildtrek.com when
+ *    served at /sankarvema/). We read `useRequestURL().origin` so a single build
+ *    adapts to the host, with no CORS. The rehost middleware
+ *    (server/middleware/00.rehost.global.ts) makes the SSR origin the public host.
+ *  - GitHub Pages (static, no backend): `NUXT_PUBLIC_CRM_URL` is baked in and
+ *    overrides everything, pointing the ask form cross-origin at the CRM.
  *
- * NOTE: resolving this from the config server's `apps.crm` entry (the SANS way)
- * is deferred as a larger architecture change; for now it stays a build-time env.
+ * The ask form POSTs to `<crmUrl>/api/public/queries` (see ContactForm.vue).
  */
 export function useCrm() {
-  const base = String(useRuntimeConfig().public.crmUrl || '').trim().replace(/\/+$/, '')
+  const override = String(useRuntimeConfig().public.crmUrl || '').trim().replace(/\/+$/, '')
+
+  let base = override
+  if (!base) {
+    try {
+      base = `${useRequestURL().origin}/crm`
+    } catch {
+      base = ''
+    }
+  }
+
   return {
+    /** CRM base URL, e.g. https://guildtrek.com/crm */
     url: base,
     /** True when a CRM endpoint is configured; the form disables submit otherwise. */
     configured: !!base,
