@@ -14,6 +14,7 @@
 
 | Date | Post | Theme | Hook | Link |
 | :--- | :--- | :--- | :--- | :--- |
+|  | Vibe Coding Is Not a Strategy `vibe-coding-is-not-a-strategy` | CXO | AI-accelerated dev without a frame is debt: standards, security, scale, maintainability. Needs an architect. |  |
 |  | Gartner's AI Forecast Is Already Behind `gartner-forecast-already-behind` | CXO | An 18-month-old radar as an AI roadmap. Reality already overtook it. (Alarm series 1 of 3) |  |
 |  | Are We Gulping More AI Than We Can Digest? `gulping-more-than-we-can-digest` | CXO | Absorption, not capability, is the bottleneck. (Alarm series 2 of 3) |  |
 |  | The Coming AI Write-Down `the-coming-ai-write-down` | CXO | Hype funds value ahead of its time, and the gap gets written down. (Alarm series 3 of 3) |  |
