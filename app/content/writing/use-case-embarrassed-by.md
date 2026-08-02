@@ -4,7 +4,7 @@ slug: use-case-embarrassed-by
 date: 2026-08-01
 tags: [enterprise, adoption, value]
 excerpt: The AI use case that pays for itself is rarely the one on the keynote slide. It is the dull, high-volume, back-office chore nobody wants to present.
-draft: true
+draft: false
 ---
 
 Ask a leadership team for their flagship AI use case and you will hear something

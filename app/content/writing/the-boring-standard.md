@@ -4,7 +4,7 @@ slug: the-boring-standard
 date: 2026-08-01
 tags: [ai, architecture, integration]
 excerpt: Everyone watches the model releases. The quiet unlock for enterprise AI is the unglamorous standardization of how models connect to your tools and data.
-draft: true
+draft: false
 ---
 
 Every few weeks a new model launches and the industry holds its breath.

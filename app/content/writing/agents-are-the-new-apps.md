@@ -4,7 +4,7 @@ slug: agents-are-the-new-apps
 date: 2026-08-01
 tags: [ai, agentic, strategy]
 excerpt: For thirty years we shipped software with buttons. The next decade ships software with goals. That one change rewrites the product, the org, and the risk model.
-draft: true
+draft: false
 ---
 
 For thirty years, software meant buttons. You clicked, it responded. The user

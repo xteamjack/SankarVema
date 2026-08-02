@@ -4,7 +4,7 @@ slug: gartner-forecast-already-behind
 date: 2026-08-02
 tags: [ai, strategy, cxo]
 excerpt: A leadership team showed me an eighteen-month-old Gartner radar as their AI roadmap. In AI, eighteen months is an era. What unsettled me was not what it got wrong, but how far we have already run past it.
-draft: true
+draft: false
 ---
 
 A few days ago a leadership team showed me a Gartner report to back their case for

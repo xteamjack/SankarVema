@@ -4,7 +4,7 @@ slug: the-ai-native-org-chart
 date: 2026-08-01
 tags: [cxo, organization, transformation]
 excerpt: You cannot bolt AI onto an org designed for humans and get AI-native results. But you also do not need a reorg circus. Here is the small structural change that works.
-draft: true
+draft: false
 ---
 
 Most AI transformations fail not at the model but at the org chart. You cannot bolt

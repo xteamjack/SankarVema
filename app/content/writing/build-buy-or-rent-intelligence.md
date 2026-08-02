@@ -4,7 +4,7 @@ slug: build-buy-or-rent-intelligence
 date: 2026-08-01
 tags: [cxo, strategy, architecture]
 excerpt: The old build-vs-buy question has a third option now: rent. Knowing which parts of your AI stack to own and which to rent is the difference between a moat and a bill.
-draft: true
+draft: false
 ---
 
 Every enterprise faces the same question with AI, and most answer it badly: do we

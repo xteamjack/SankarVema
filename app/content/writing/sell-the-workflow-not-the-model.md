@@ -4,7 +4,7 @@ slug: sell-the-workflow-not-the-model
 date: 2026-08-01
 tags: [startup, ai, strategy]
 excerpt: AI startups that resell intelligence get commoditized the day the next model ships. The ones that own an end-to-end workflow keep the value. Sell the outcome.
-draft: true
+draft: false
 ---
 
 There are two kinds of AI startup. One sells access to intelligence: a thin

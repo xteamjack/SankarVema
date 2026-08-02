@@ -4,7 +4,7 @@ slug: the-year-inference-got-cheap
 date: 2026-08-01
 tags: [ai, economics, strategy]
 excerpt: The price of a unit of machine thinking is falling faster than almost any input in business history. Most AI strategies were written when it was still expensive. They are now out of date.
-draft: true
+draft: false
 ---
 
 Quietly, the most important number in AI has been falling off a cliff. The cost

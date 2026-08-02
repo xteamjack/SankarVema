@@ -4,7 +4,7 @@ slug: the-boring-startup-that-prints-money
 date: 2026-08-01
 tags: [startup, ai, strategy]
 excerpt: The most fundable AI startup is not the flashy one. It is a services business disguised as a product, in a dull vertical, where AI quietly does most of the work.
-draft: true
+draft: false
 ---
 
 Founders chase the exciting startup: the consumer app, the frontier model, the

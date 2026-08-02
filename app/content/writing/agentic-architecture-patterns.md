@@ -4,7 +4,7 @@ slug: agentic-architecture-patterns
 date: 2026-06-15
 tags: [build, agentic, architecture]
 excerpt: An opinionated tour of the patterns that have survived contact with production across my last five agent builds, and the ones I've stopped reaching for.
-draft: true
+draft: false
 status: outline
 ---
 

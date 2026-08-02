@@ -4,7 +4,7 @@ slug: what-your-ai-vendor-wont-tell-you
 date: 2026-08-01
 tags: [cxo, procurement, strategy]
 excerpt: The demo is honest. The contract is where the real story lives. Five things your enterprise AI vendor is not eager to explain before you sign.
-draft: true
+draft: false
 ---
 
 Your AI vendor is not lying to you. They are just answering the questions you ask,

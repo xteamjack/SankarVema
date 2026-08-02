@@ -4,7 +4,7 @@ slug: five-questions-before-the-ai-budget
 date: 2026-08-01
 tags: [cxo, governance, strategy]
 excerpt: Most boards approve AI budgets on faith and a good demo. Five hard questions separate the programs that will compound from the ones that will quietly disappear.
-draft: true
+draft: false
 ---
 
 Most AI budgets get approved on a mix of faith, fear of missing out, and an

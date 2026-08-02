@@ -4,7 +4,7 @@ slug: build-for-bharat-first
 date: 2026-08-01
 tags: [startup, ai, bharat]
 excerpt: The instinct is to build for the West and hope it trickles home. The bigger opportunity is the reverse: solve a hard Bharat problem, and the solution travels to the world.
-draft: true
+draft: false
 ---
 
 The default instinct for an ambitious founder here is to build for the West, chase

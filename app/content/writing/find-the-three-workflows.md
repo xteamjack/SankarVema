@@ -4,7 +4,7 @@ slug: find-the-three-workflows
 date: 2026-08-01
 tags: [enterprise, adoption, method]
 excerpt: You do not need an AI strategy with forty initiatives. You need to find the three workflows where AI moves a number the CFO recognizes, and do those first.
-draft: true
+draft: false
 ---
 
 Most AI strategies fail by being too ambitious. Forty initiatives, a committee, a

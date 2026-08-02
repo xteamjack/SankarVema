@@ -4,7 +4,7 @@ slug: vertical-ai-eats-horizontal-ai
 date: 2026-08-01
 tags: [ai, product, strategy]
 excerpt: The broad, do-everything assistant is a commodity. Durable value is in AI that goes deep into one industry, with the data, workflow and judgment only that domain has.
-draft: true
+draft: false
 ---
 
 The first wave of AI products was horizontal: one assistant, for everyone, for

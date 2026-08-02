@@ -4,7 +4,7 @@ slug: enterprise-ai-adoption-playbook
 date: 2026-06-25
 tags: [transform, enterprise, leadership]
 excerpt: Most AI transformation programs fail not at the model, but at the second year. Here's the unglamorous structure I'd insist on if you asked me to run one.
-draft: true
+draft: false
 status: outline
 ---
 

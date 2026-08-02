@@ -4,7 +4,7 @@ slug: copilot-to-autopilot
 date: 2026-08-01
 tags: [ai, agentic, adoption]
 excerpt: Every AI use case travels a maturity curve from suggestion to action. Knowing where each one sits, and when to remove the human, is the real operating skill.
-draft: true
+draft: false
 ---
 
 Most AI in the enterprise today is a copilot. It suggests, drafts, recommends, and

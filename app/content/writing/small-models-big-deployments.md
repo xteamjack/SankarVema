@@ -4,7 +4,7 @@ slug: small-models-big-deployments
 date: 2026-08-01
 tags: [ai, architecture, cost]
 excerpt: The default reflex is to reach for the biggest model available. For a lot of real enterprise work, that is the expensive, slow, and less private choice.
-draft: true
+draft: false
 ---
 
 There is a reflex in most AI projects: reach for the biggest, most capable model

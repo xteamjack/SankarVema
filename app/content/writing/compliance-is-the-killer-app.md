@@ -4,7 +4,7 @@ slug: compliance-is-the-killer-app
 date: 2026-08-01
 tags: [enterprise, compliance, value]
 excerpt: Regulated, document-heavy processes look like the least exciting place to put AI. They are the highest-ROI beachhead, precisely because they are so painful today.
-draft: true
+draft: false
 ---
 
 If you want to find the highest-return AI project in a large enterprise, do not

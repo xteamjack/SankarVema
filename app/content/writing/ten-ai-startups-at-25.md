@@ -4,7 +4,7 @@ slug: ten-ai-startups-at-25
 date: 2026-08-01
 tags: [startup, ai, ideas]
 excerpt: A list is cheap to give away. The wedge behind each one is the real gift. Ten concrete, buildable, Bharat-first AI ideas, each with a reason it can win.
-draft: true
+draft: false
 ---
 
 People collect AI startup ideas like trading cards. Ideas are cheap. What is
