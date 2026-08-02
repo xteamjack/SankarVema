@@ -14,6 +14,9 @@
 
 | Date | Post | Theme | Hook | Link |
 | :--- | :--- | :--- | :--- | :--- |
+|  | Gartner's AI Forecast Is Already Behind `gartner-forecast-already-behind` | CXO | An 18-month-old radar as an AI roadmap. Reality already overtook it. (Alarm series 1 of 3) |  |
+|  | Are We Gulping More AI Than We Can Digest? `gulping-more-than-we-can-digest` | CXO | Absorption, not capability, is the bottleneck. (Alarm series 2 of 3) |  |
+|  | The Coming AI Write-Down `the-coming-ai-write-down` | CXO | Hype funds value ahead of its time, and the gap gets written down. (Alarm series 3 of 3) |  |
 |  | Agents Are the New Apps `agents-are-the-new-apps` | AI dev | When software gets goals instead of buttons, the stack and the org chart both change. |  |
 |  | The Year Inference Got Cheap `the-year-inference-got-cheap` | AI dev | Reasoning models plus falling token costs flipped the economics. Build accordingly. |  |
 |  | Small Models, Big Deployments `small-models-big-deployments` | AI dev | You probably do not need a frontier model. The privacy and cost case for small, on-device AI. |  |
