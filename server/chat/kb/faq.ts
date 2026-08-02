@@ -7,7 +7,7 @@
 export const FAQ_KNOWLEDGE = `WHO
 - Sankar Vema — AI Builder & Architect of Agentic Systems. He helps enterprise leaders turn AI ambition into capability that actually ships.
 - 25+ years building, leading and scaling technology; now focused on agentic architectures, model design and AI product development. 15+ systems architected and shipped.
-- Currently Chief AI Officer at Zettamine, building AI and SAP products.
+- Currently Chief Technology and AI Officer at Zettamine, building AI and SAP products.
 - Formerly: DXC Distinguished Engineer; Account CTO for AT&T and Zurich Insurance; Managing Partner leading 280+ engineers at Brane. Has advised Fortune 500 leaders across the US and Europe.
 - Based in India; open to global advisory engagements. Works down the whole stack, from real-time audio-video agents and an enterprise digital twin down to a custom language, its compiler and custom silicon.
 

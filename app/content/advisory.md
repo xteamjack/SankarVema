@@ -44,7 +44,7 @@ This is unpaid for founders pre-Series A and is intentionally selective.
 
 ## What proves I can do this
 
-- **Chief AI Officer, Zettamine**: building an AI and SAP product studio
+- **Chief Technology and AI Officer, Zettamine**: leading its transformation into an AI product and services company
   (DigiHire.ai, GuildTrek, cognitive ERP, industrial AI).
 - **DXC Distinguished Engineer (2018)**: the company's highest technical
   distinction, for sustained technical leadership.

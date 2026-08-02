@@ -32,7 +32,7 @@ useSeoMeta({
           </div>
           <div class="mt-5">
             <h2 class="font-[family-name:var(--font-display)] text-xl tracking-tight text-[var(--color-fg)]">Sankar Vema</h2>
-            <p class="mt-1 text-sm text-[var(--color-fg-muted)]">Chief AI Officer, Zettamine</p>
+            <p class="mt-1 text-sm text-[var(--color-fg-muted)]">Chief Technology and AI Officer, Zettamine</p>
             <p class="mt-0.5 text-sm text-[var(--color-fg-faint)]">Hyderabad, India</p>
             <div class="mt-4 flex flex-wrap gap-1.5">
               <span class="tag">30+ years</span>
@@ -136,7 +136,7 @@ useSeoMeta({
               enterprise software to the current wave of applied artificial intelligence. Across that time he has
               consistently worked where the technology is hardest and the stakes are real: large enterprise
               programmes, frontier engineering, and the systems that organisations depend on to run. He is currently
-              the Chief AI Officer at Zettamine.
+              the Chief Technology and AI Officer at Zettamine.
             </p>
             <p>
               He began his career as a software engineer, building products in the education technology space and
@@ -183,7 +183,7 @@ useSeoMeta({
               hardware.
             </p>
             <p>
-              Today, as Chief AI Officer at Zettamine, he leads the company's work in artificial intelligence and
+              Today, as Chief Technology and AI Officer at Zettamine, he leads the company's work in artificial intelligence and
               enterprise software. His focus is on building AI systems that hold up in real use rather than in
               demonstrations, including agentic and conversational AI, retrieval-based systems and applied machine
               learning, alongside the modernisation of the enterprise systems that businesses already rely on. He

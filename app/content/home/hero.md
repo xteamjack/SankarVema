@@ -31,7 +31,7 @@ capabilities:
     cta: See the work
   - title: Transform
     tagline: AI-curious to AI-operational
-    body: Chief AI Officer at Zettamine, building AI and SAP products. Formerly DXC Distinguished Engineer, Account CTO for AT&T and Zurich Insurance, and Managing Partner leading 280+ engineers. I turn AI ambition into shipped capability.
+    body: Chief Technology and AI Officer at Zettamine, building AI and SAP products. Formerly DXC Distinguished Engineer, Account CTO for AT&T and Zurich Insurance, and Managing Partner leading 280+ engineers. I turn AI ambition into shipped capability.
     link: /advisory
     cta: Engage me
   - title: Mentor
